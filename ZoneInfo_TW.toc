@@ -1,0 +1,54 @@
+## Interface: 11200
+## Title: ZoneInfo
+## Notes: A map zone info display for Turtle WoW
+## Author: Ferrolune
+## DefaultState: enabled
+## LoadOnDemand: 0
+## X-Category: Map
+## Version: 1.4
+
+
+core.lua
+display.lua
+
+functions\cities.lua
+functions\dungeons.lua
+functions\errors.lua
+functions\levels.lua
+functions\poi.lua
+functions\towns.lua
+functions\zones.lua
+functions\fogofwar.lua
+
+data\cities.lua
+data\colors.lua
+data\dungeons.lua
+data\poi.lua
+data\rules.lua
+data\towns.lua
+data\zones.lua
+
+
+# Version Log
+# Version 1.4
+# added POI texts
+# added POI coloring
+# added POI level ranges
+# added POI reactions
+#
+# Version 1.3
+# added NODATA error
+# fixed frame duping bug
+# fixed nil errors
+#
+# Version 1.2
+# Added faction colors
+# Added level range colors
+#
+# Version 1.1
+# Added Level ranges
+#
+# Version 1.0
+# Added Zone texts
+# Added Town texts
+# Added City texts
