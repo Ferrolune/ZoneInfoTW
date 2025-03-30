@@ -53,6 +53,6 @@ ZoneInfoTW.Zones = {
     ["Icepoint Rock"] = {flag = "1010",low = 40,high = 50},
     ["Blackstone Island"] = {flag = "0100",low = 1,high = 10},
     ["Hyjal"] = {flag = "1010",low = 58,high = 60},
-
+    --Winter Veil zone
 
 }
