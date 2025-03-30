@@ -227,13 +227,40 @@ ZoneInfoTW.PointOfInterests = {
         low = 23,
         high = 31
     },
-    ["Twilight Grove"] = {
+
+    -- Redridge Mountains
+    ["Three Corners"] = {
         flag = "1001",
-        low = 60,
-        high = 63
+        low = 14,
+        high = 17
+    },
+    ["Lakeridge Highway"] = {
+        flag = "1001",
+        low = 15,
+        high = 19
+    },
+    ["Render's Valley"] = {
+        flag = "1001",
+        low = 17,
+        high = 22
+    },
+    ["Stonewatch Keep"] = {
+        flag = "1001",
+        low = 20,
+        high = 26
+    },
+    ["Stonewatch"] = {
+        flag = "1001",
+        low = 20,
+        high = 22
+    },
+    ["Tower of Ilgalar"] = {
+        flag = "1001",
+        low = 21,
+        high = 27
     },
 
-    --Redridge Mountains
+
 
 
     -- Kalimdor,
