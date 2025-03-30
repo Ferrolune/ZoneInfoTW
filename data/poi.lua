@@ -147,7 +147,7 @@ ZoneInfoTW.PointOfInterests = {
     ["Bloodsail Compound"] = {flag = "1001",low = 41,high = 45},
     ["Nek'mani Wellspring"] = {flag = "1001",low = 43,high = 44},
     ["Mistvale Valley"] = {flag = "1001",low = 40,high = 43},
-    ["Spirit Den"] = {flag = "1000",low = 6,high = 10},
+    ["Spirit Den"] = {flag = "1000",low = 40,high = 43},
     ["Wild Shore"] = {flag = "1001",low = 40,high = 48},
     ["Jaguero Isle"] = {flag = "1001",low = 25,high = 60},
     ["Janeiro's Point"] = {flag = "1001",low = 50,high = 50},
@@ -187,7 +187,7 @@ ZoneInfoTW.PointOfInterests = {
     ["Glaymore Stead"]={flag="1000",low=39,high=41},
     ["Rosewick Plantation"]={flag="1001",low=41,high=43},
     ["Vagrant Encampment"]={flag="0000",low=39,high=41},
-    ["The Greymane Wall"]={flag="0000",low=18,high=40},
+    ["The Greymane Wall"]={flag="0000",low= 18, high=40 },
     ["Oldrock Pass"]={flag="1001",low=41,high=45},
     ["Dawnstone Mine"]={flag="1001",lowD=39,high=43},
     ["Gilneas City"]={flag="1001",low=39,high=40},
@@ -290,7 +290,75 @@ ZoneInfoTW.PointOfInterests = {
     ["The Dark Portal"]={flag="1001",low=48,high=57},
     ["The Tainted Scar"]={flag="1001",low=60,high=62},
 
+    --Alterac Mountains
+    ["Lordamere Internment Camp"]={flag="0000",low=24,high=33},
+    ["Dalaran"]={flag="0000",low=25,high=60},
+    ["Gavin's Naze"]={flag="1001",low=30,high=33},
+    ["The Headland"]={flag="0000",low=32,high=33},
+    ["Corrahn's Dagger"]={flag="1001",low=32,high=34},
+    ["Sofera's Naze"]={flag="1001",low=30,high=35},
+    ["The Uplands"]={flag="1001",low=30,high=38},
+    ["Dandred's Fold"]={flag="1001",low=30,high=40},
+    ["Misty Shore"]={flag="1010",low=30,high=31},
+    ["Strahnbrad"]={flag="1001",low=34,high=36},
+    ["Gallows' Corner"]={flag="1001",low=34,high=36},
+    ["Growless Cave"]={flag="1001",low=32,high=34},
+    ["Ruins of Alterac"]={flag="1001",low=32,high=43},
+    ["Slaughter Hollow"]={flag="1001",low=34,high=36},
+    ["Crushridge Hold"]={flag="1001",low=34,high=46},
 
+    --Wetlands
+    ["Dun Algaz"]={flag="1001",low=19,high=22},
+    ["Thelgen Rock"]={flag="1001",low=20,high=22},
+    ["Mosshide Fen"]={flag="1001",low=20,high=26},
+    ["Dragonmaw Gates"]={flag="1001",low=58,high=62},
+    ["Raptor Ridge"]={flag="1001",low=27,high=29},
+    ["Direforge Hill"]={flag="1001",low=25,high=34},
+    ["The Green Belt"]={flag="1001",low=21,high=26},
+    ["Dun Modr"]={flag="1001",low=27,high=31},
+    ["Ironbeard's Tomb"]={flag="1001",low=23,high=26},
+    ["Saltspray Glen"]={flag="1001",low=22,high=29},
+    ["Angerfang Encampment"]={flag="1001",low=24,high=32},
+    ["Whelgar's Excavation Site"]={flag="1001",low=25,high=29},
+    ["Black Channel Marsh"]={flag="1001",low=25,high=29},
+    ["Bluegill Marsh"]={flag="1001",low=20,high=26},
+    ["Sundown Marsh"]={flag="1001",low=22,high=27},
+    ["Dun Agrath"]={flag="0000",low=22,high=29},
+    ["Hawk's Vigil"]={flag="0000",low=22,high=29},
+
+
+    --Lapidis Isle
+    ["Crown Island"]={flag="1001",low=48,high=52},
+    ["Shank's Reef"]={flag="1001",low=49,high=51},
+    ["The Rock"]={flag="1010",low=49,high=51},
+    ["Caelan's Rest"]={flag="0000",low=48,high=50},
+    ["Tower Of Lapidis"]={flag="1001",low=53,high=53},
+    ["Gor'Dosh Heights"]={flag="1001",low=50,high=53},
+    ["The Wallowing Coast"]={flag="1001",low=48,high=53},
+    ["Hazzuri Glade"]={flag="1000",low=48,high=53},
+    ["Zul'Hazu"]={flag="1001",low=47,high=55},
+    ["Bright Coast"]={flag="1001",low=49,high=54},
+
+    --Gillijim's Isle
+    ["The Southsea Sandbar"]={flag="1001",low=51,high=53},
+    ["Distillery Island"]={flag="1001",low=48,high=53},
+    ["The Silver Sandbar"]={flag="1001",low=50,high=54},
+    ["Deeptide Sanctum"]={flag="1001",low=49,high=55},
+    ["The Broken Reef"]={flag="1001",low=48,high=52},
+    ["Ruins of Zul'Razar"]={flag="1001",low=50,high=53},
+    ["Faelon's Folly"]={flag="1001",low=51,high=54},
+    ["Zul'Razar"]={flag="1001",low=47,high=54},
+    ["Maul'ogg Post"]={flag="1001",low=47,high=54},
+    ["The Silver Coast"]={flag="1001",low=48,high=52},
+    ["Deepneck Cove"]={flag="1001",low=49,high=53},
+    ["Gillijim Strand"]={flag="1001",low=48,high=51},
+    ["The Tangled Wood"]={flag="1001",low=48,high=52},
+    ["Maul'ogg Refuge"]={flag="0100",low=48,high=52},
+    ["The Jade Mine"]={flag="1001",low=48,high=52},
+    ["Kazon Island"]={flag="1000",low=51,high=55},
+    ["Kalkor Point"]={flag="1010",low=51,high=53},
+
+    -- regex to find rows where low = high, please fix these: low\s*=\s*(\d+)\s*,\s*high\s*=\s*\1
 }
 
 ZoneInfoTW.reactionColors = {
@@ -302,7 +370,7 @@ ZoneInfoTW.reactionColors = {
     ["0110"] = "|cffffff00", -- Horde neutral
     ["1000"] = "|cff00ff00", -- Contested friendly
     ["1001"] = "|cffff0000", -- Contested hostile
-    ["1010"] = "|cffffff00" -- Contested neutral
+    ["1010"] = "|cffffff00"  -- Contested neutral
 }
 
 ZoneInfoTW.reactionRemap = {
@@ -314,7 +382,7 @@ ZoneInfoTW.reactionRemap = {
     ["0110"] = "0110", -- Horde neutral -> Alliance neutral
     ["1000"] = "1000", -- Contested friendly -> Contested friendly
     ["1001"] = "1001", -- Contested hostile -> Contested hostile
-    ["1010"] = "1010" -- Contested neutral -> Contested neutral
+    ["1010"] = "1010"  -- Contested neutral -> Contested neutral
 }
 
 function ZoneInfoTW:AdjustFlagForPlayerFaction(flag)

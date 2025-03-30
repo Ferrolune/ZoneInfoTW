@@ -5,7 +5,7 @@
 ## DefaultState: enabled
 ## LoadOnDemand: 0
 ## X-Category: Map
-## Version: 1.4
+## Version: 1.5a
 
 
 core.lua
@@ -27,6 +27,9 @@ data\zones.lua
 
 
 # Version Log
+# Version 1.5a
+# alpha, work in progress, adding data to all zones.
+#
 # Version 1.4
 # added POI texts
 # added POI coloring
