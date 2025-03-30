@@ -11,14 +11,10 @@
 core.lua
 display.lua
 
-functions\cities.lua
 functions\dungeons.lua
 functions\errors.lua
-functions\levels.lua
-functions\poi.lua
-functions\towns.lua
-functions\zones.lua
-functions\fogofwar.lua
+functions\texts.lua
+
 
 data\cities.lua
 data\colors.lua

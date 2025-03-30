@@ -2,7 +2,8 @@ local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain") or {}
 
 
 ZoneInfoTW.PointOfInterests = {
-    --ELWYNN FOREST
+    --Eastern Kingdoms
+    --Elwynn Forest
     ["Northshire Valley"] = {
         flag = "1010",
         low = 1,
@@ -100,6 +101,35 @@ ZoneInfoTW.PointOfInterests = {
     },
 
 
+
+
+    --Westfall,
+    ["The Jansen Stead"] = {
+        flag = "1001",
+        low = 9,
+        high = 13
+    },
+    ["Furlbrow's Pumpkin Farm"] = {
+        flag = "1001",
+        low = 9,
+        high = 15
+    },
+    ["Jangolode Mine"] = {
+        flag = "1001",
+        low = 11,
+        high = 14
+    },
+    ["The Molsen Farm"] = {
+        flag = "1001",
+        low = 10,
+        high = 15
+    },
+    ["Saldean's Farm"] = {
+        flag = "1001",
+        low = 10,
+        high = 15
+    },
+    --Kalimdor,
     --Durotar,
     ["Skull Rock"] = {
         flag = "1001",
@@ -169,3 +199,9 @@ ZoneInfoTW.reactionRemap = {
     ["1001"] = "1001", -- Contested hostile -> Contested hostile
     ["1010"] = "1010" -- Contested neutral -> Contested neutral
 }
+
+function ZoneInfoTW:AdjustFlagForPlayerFaction(flag)
+    local isHorde = (UnitFactionGroup("player") == "Horde" and "1") or "0"
+    local reactiondata = (string.sub(flag, 2, 2) ~= isHorde and ZoneInfoTW.reactionRemap[flag]) or flag
+    return reactiondata
+end

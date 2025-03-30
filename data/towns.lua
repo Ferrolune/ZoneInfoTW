@@ -3,152 +3,118 @@ local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain") or {}
 ZoneInfoTW.Towns = {
     -- Contested Towns
     ["Everlook"] = {
-        faction = "Contested",
-        zone = "Winterspring"
+        flag = "1010"
     },
     ["Nordanaar"] = {
-        faction = "Contested",
-        zone = "Hyjal"
+        flag = "1010"
     },
     ["Talonbranch Glade"] = {
-        faction = "Contested",
-        zone = "Felwood"
+        flag = "1010"
     },
     ["Ratchet"] = {
-        faction = "Contested",
-        zone = "The Barrens"
+        flag = "1010"
     },
     ["Gadgetzan"] = {
-        faction = "Contested",
-        zone = "Tanaris"
+        flag = "1010"
     },
     ["Cenarion Hold"] = {
-        faction = "Contested",
-        zone = "Silithus"
+        flag = "1010"
     },
     ["Booty Bay"] = {
-        faction = "Contested",
-        zone = "Stranglethorn Vale"
+        flag = "1010"
     },
 
     -- Alliance Towns
     ["Auberdine"] = {
-        faction = "Alliance",
-        zone = "Darkshore"
+        flag = "0000"
     },
     ["Astranaar"] = {
-        faction = "Alliance",
-        zone = "Ashenvale"
+        flag = "0000"
     },
-    ["Stonetalon Peaks"] = {
-        faction = "Alliance",
-        zone = "Stonetalon Mountains"
+    ["Stonetalon Peak"] = {
+        flag = "0000"
     },
     ["Nijel's Point"] = {
-        faction = "Alliance",
-        zone = "Desolace"
+        flag = "0000"
     },
     ["Theramore Isle"] = {
-        faction = "Alliance",
-        zone = "Dustwallow Marsh"
+        flag = "0000"
     },
     ["Feathermoon Stronghold"] = {
-        faction = "Alliance",
-        zone = "Feralas"
+        flag = "0000"
     },
     ["Thalanaar"] = {
-        faction = "Alliance",
-        zone = "Feralas"
+        flag = "0000"
     },
     ["Aerie Peak"] = {
-        faction = "Alliance",
-        zone = "The Hinterlands"
+        flag = "0000"
     },
     ["Hammerfall"] = {
-        faction = "Horde",
-        zone = "Arathi Highlands"
+        flag = "0100"
     },
     ["Southshore"] = {
-        faction = "Alliance",
-        zone = "Hillsbrad Foothills"
+        flag = "0000"
     },
     ["Ravenshire"] = {
-        faction = "Alliance",
-        zone = "Gilneas"
+        flag = "0000"
     },
     ["Menethil Harbor"] = {
-        faction = "Alliance",
-        zone = "Wetlands"
+        flag = "0000"
     },
     ["Thelsamar"] = {
-        faction = "Alliance",
-        zone = "Loch Modan"
+        flag = "0000"
     },
     ["Lakeshire"] = {
-        faction = "Alliance",
-        zone = "Redridge Mountains"
+        flag = "0000"
     },
     ["Stonard"] = {
-        faction = "Alliance",
-        zone = "Swamp of Sorrows"
+        flag = "0000"
     },
     ["Darkshire"] = {
-        faction = "Alliance",
-        zone = "Duskwood"
+        flag = "0000"
     },
     ["Sentinel Hill"] = {
-        faction = "Alliance",
-        zone = "Westfall"
+        flag = "0000",
+        low = 11,
+        high = 17
     },
 
     -- Horde Towns
     ["Splintertree Post"] = {
-        faction = "Horde",
-        zone = "Ashenvale"
+        flag = "0100"
     },
     ["Amani'Alor"] = {
-        faction = "Horde",
-        zone = "Stonetalon Mountains"
+        flag = "0100"
     },
-    ["Sunrock Retreat"] = {
-        faction = "Horde",
-        zone = "Stonetalon Mountains"
+    ["Sun Rock Retreat"] = {
+        flag = "0100"
     },
     ["The Crossroads"] = {
-        faction = "Horde",
-        zone = "The Barrens"
+        flag = "0100"
     },
     ["Camp Taurajo"] = {
-        faction = "Horde",
-        zone = "The Barrens"
+        flag = "0100"
     },
     ["Shadowprey Village"] = {
-        faction = "Horde",
-        zone = "Desolace"
+        flag = "0100"
     },
     ["Camp Mojache"] = {
-        faction = "Horde",
-        zone = "Feralas"
+        flag = "0100"
     },
     ["Freewind Post"] = {
-        faction = "Horde",
-        zone = "Feralas"
+        flag = "0100"
     },
     ["Tarren Mill"] = {
-        faction = "Horde",
-        zone = "Hillsbrad Foothills"
+        flag = "0100"
     },
     ["The Sepulcher"] = {
-        faction = "Horde",
-        zone = "Silverpine Forest"
+        flag = "0100"
     },
     ["Kargath"] = {
-        faction = "Horde",
-        zone = "Badlands"
+        flag = "0100"
     },
     ["Grom'gol Base Camp"] = {
-        faction = "Horde",
-        zone = "Stranglethorn Vale"
+        flag = "0100"
     }
 
 }

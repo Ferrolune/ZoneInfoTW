@@ -2,251 +2,251 @@ local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain") or {}
 
 ZoneInfoTW.Zones = {
     ["Redridge Mountains"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 15,
         high = 25
     },
     ["Stonetalon Mountains"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 15,
         high = 27
     },
     ["Ashenvale"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 18,
         high = 30
     },
     ["Duskwood"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 18,
         high = 30
     },
     ["Wetlands"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 20,
         high = 30
     },
     ["Hillsbrad Foothills"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 20,
         high = 35
     },
     ["Thousand Needles"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 25,
         high = 35
     },
     ["Alterac Mountains"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 30,
         high = 40
     },
     ["Arathi Highlands"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 30,
         high = 40
     },
     ["Desolace"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 30,
         high = 40
     },
     ["Stranglethorn Vale"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 30,
         high = 45
     },
     ["Dustwallow Marsh"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 35,
         high = 45
     },
     ["Badlands"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 35,
         high = 45
     },
     ["Swamp of Sorrows"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 35,
         high = 45
     },
     ["Feralas"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 40,
         high = 50
     },
     ["The Hinterlands"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 40,
         high = 50
     },
     ["Tanaris"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 40,
         high = 50
     },
     ["Searing Gorge"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 45,
         high = 50
     },
     ["Azshara"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 45,
         high = 55
     },
     ["Blasted Lands"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 45,
         high = 55
     },
     ["Un'Goro Crater"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 48,
         high = 55
     },
     ["Felwood"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 48,
         high = 55
     },
     ["Burning Steppes"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 50,
         high = 58
     },
     ["Western Plaguelands"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 51,
         high = 58
     },
     ["Eastern Plaguelands"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 53,
         high = 60
     },
     ["Winterspring"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 53,
         high = 60
     },
     ["Deadwind Pass"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 55,
         high = 60
     },
     ["Moonglade"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 55,
         high = 60
     },
     ["Silithus"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 55,
         high = 60
     },
 
     ["Dun Morogh"] = {
-        faction = "Alliance",
+        flag = "0000",
         low = 1,
         high = 10
     },
     ["Elwynn Forest"] = {
-        faction = "Alliance",
+        flag = "0000",
         low = 1,
         high = 10
     },
     ["Teldrassil"] = {
-        faction = "Alliance",
+        flag = "0000",
         low = 1,
         high = 10
     },
     ["Darkshore"] = {
-        faction = "Alliance",
+        flag = "0000",
         low = 10,
         high = 20
     },
     ["Loch Modan"] = {
-        faction = "Alliance",
+        flag = "0000",
         low = 10,
         high = 20
     },
     ["Westfall"] = {
-        faction = "Alliance",
+        flag = "0000",
         low = 10,
         high = 20
     },
 
     ["Durotar"] = {
-        faction = "Horde",
+        flag = "0100",
         low = 1,
         high = 10
     },
     ["Mulgore"] = {
-        faction = "Horde",
+        flag = "0100",
         low = 1,
         high = 10
     },
     ["Tirisfal Glades"] = {
-        faction = "Horde",
+        flag = "0100",
         low = 1,
         high = 10
     },
     ["Silverpine Forest"] = {
-        faction = "Horde",
+        flag = "0100",
         low = 10,
         high = 20
     },
     ["The Barrens"] = {
-        faction = "Horde",
+        flag = "0100",
         low = 10,
         high = 25
     },
 
     -- Turtle WoW Unique Zones
     ["Tel'Abim"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 54,
         high = 60
     },
     ["Thalassian Highlands"] = {
-        faction = "Alliance",
+        flag = "0000",
         low = 1,
         high = 10
     },
     ["Lapidis Isle"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 48,
         high = 53
     },
     ["Gillijim's Isle"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 48,
         high = 53
     },
     ["Scarlet Enclave"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 55,
         high = 60
     },
     ["Gilneas"] = {
-        faction = "Alliance",
+        flag = "0000",
         low = 39,
         high = 46
     },
     ["Icepoint Rock"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 40,
         high = 50
     },
     ["Blackstone Island"] = {
-        faction = "Horde",
+        flag = "0100",
         low = 1,
         high = 10
     },
     ["Hyjal"] = {
-        faction = "Contested",
+        flag = "1010",
         low = 58,
         high = 60
     }

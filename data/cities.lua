@@ -3,31 +3,31 @@ local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain") or {}
 ZoneInfoTW.Cities = {
     -- Alliance Cities
     ["Stormwind City"] = {
-        faction = "Alliance"
+        flag = "0000"
     },
     ["Stormwind"] = {
-        faction = "Alliance"
+        flag = "0000"
     },
     ["Ironforge"] = {
-        faction = "Alliance"
+        flag = "0000"
     },
     ["Alah'Thalas"] = {
-        faction = "Alliance"
+        flag = "0000"
     },
     ["Darnassus"] = {
-        faction = "Alliance"
+        flag = "0000"
     },
 
 
     -- Horde Cities
     ["The Undercity"] = {
-        faction = "Horde"
+        flag = "0100"
     },
     ["Orgrimmar"] = {
-        faction = "Horde"
+        flag = "0100"
     },
     ["Thunder Bluff"] = {
-        faction = "Horde"
+        flag = "0100"
     }
 
     -- Contested Cities

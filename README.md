@@ -21,4 +21,4 @@ Roadmap
 10. Optimizations
 11. Whatever else I feel like adding.
 
-Currently, contributions, pull requests, and issues are ignored until this roadmap is done. There's a lot of data and exploration to cover before it's done.
+Currently, contributions, pull requests, and issues are ignored until this roadmap is done. There's a lot of data and exploration to cover before it's done.w
