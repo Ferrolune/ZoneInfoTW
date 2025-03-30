@@ -4,7 +4,6 @@ end
 
 local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain")
 
--- OnLoad, setup frame
 ZoneInfoTW:RegisterEvent("PLAYER_ENTERING_WORLD")
 ZoneInfoTW:SetScript("OnEvent", function()
     ZoneInfoTW:SetupText()

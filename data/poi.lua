@@ -170,7 +170,6 @@ ZoneInfoTW.PointOfInterests = {
 
 }
 
--- 4-bit flags, Alliance will be flipped for Horde, contested remains unchanged for both:
 ZoneInfoTW.reactionColors = {
     ["0000"] = "|cff00ff00", -- Alliance friendly
     ["0001"] = "|cffff0000", -- Alliance hostile

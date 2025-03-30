@@ -1,10 +1,4 @@
--- Add more rules here as needed
-
-
-
-
 -- ! TODO: POI FOR DUNGEONS/RAIDS, A SWIRLY POI SHOULD SHOW ALL DUNGEONS ON MOUSEOVER, TOOLTIP
-
 -- ! TODO: ADD POI ICONS AND MISSING DATA FOR
 -- ! minor POI
 -- ! raids
@@ -21,4 +15,3 @@
 -- ! maplinks/short portals like the one in darnassus
 -- ! innkeepers
 -- ! unique info based on type, e.g. info required for dungeons, raids, cities, towns, world buffs, level ranges, faction, group size, etc
--- !

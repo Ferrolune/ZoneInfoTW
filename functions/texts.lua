@@ -1,6 +1,5 @@
 local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain") or {}
 
--- zone level range colors
 function ZoneInfoTW:GetColoredLevelRange(target, table)
     local colors = ZoneInfoTW.Colors["Levels"]
 
@@ -27,7 +26,6 @@ function ZoneInfoTW:GetLevelColor(target, table)
     return ZoneInfoTW.Colors["Levels"]["Gray"]
 end
 
--- colors the text based on faction ractions.
 function ZoneInfoTW:GetColoredName(target, table)
     local colors = ZoneInfoTW.Colors["Factions"]
 
