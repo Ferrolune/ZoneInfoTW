@@ -23,10 +23,19 @@ ZoneInfoTW.Colors["Errors"] = {
     ["BAD_FACTION"] = {128, 128, 128}
 }
 
-ZoneInfoTW.colorThresholds = {
-    { offset = 10, color = "Skull" },
-    { offset = 5,  color = "Red"   },
-    { offset = 3,  color = "Orange"},
-    { offset = -2, color = "Yellow"},
-    { offset = -5, color = "Green" }
-}
+ZoneInfoTW.colorThresholds = {{
+    offset = 10,
+    color = "Skull"
+}, {
+    offset = 5,
+    color = "Red"
+}, {
+    offset = 3,
+    color = "Orange"
+}, {
+    offset = -2,
+    color = "Yellow"
+}, {
+    offset = -5,
+    color = "Green"
+}}

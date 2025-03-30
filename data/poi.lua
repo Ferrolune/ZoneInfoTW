@@ -1,13 +1,12 @@
 local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain") or {}
 
-
 ZoneInfoTW.PointOfInterests = {
-    --Eastern Kingdoms
-    --Elwynn Forest
+    -- Eastern Kingdoms
+    -- Elwynn Forest
     ["Northshire Valley"] = {
         flag = "1010",
         low = 1,
-        high = 5,
+        high = 5
     },
     ["Northshire Abbey"] = {
         flag = "0000",
@@ -100,10 +99,7 @@ ZoneInfoTW.PointOfInterests = {
         high = 11
     },
 
-
-
-
-    --Westfall,
+    -- Westfall,
     ["The Jansen Stead"] = {
         flag = "1001",
         low = 9,
@@ -129,8 +125,8 @@ ZoneInfoTW.PointOfInterests = {
         low = 10,
         high = 15
     },
-    --Kalimdor,
-    --Durotar,
+    -- Kalimdor,
+    -- Durotar,
     ["Skull Rock"] = {
         flag = "1001",
         low = 8,
@@ -171,7 +167,6 @@ ZoneInfoTW.PointOfInterests = {
         low = 5,
         high = 8
     }
-
 
 }
 

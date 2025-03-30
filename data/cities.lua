@@ -18,7 +18,6 @@ ZoneInfoTW.Cities = {
         flag = "0000"
     },
 
-
     -- Horde Cities
     ["The Undercity"] = {
         flag = "0100"

@@ -12,10 +12,9 @@ function ZoneInfoTW:UpdateZoneDisplayText()
     local zone = WorldMapFrameAreaLabel:GetText() or ""
     local poi = ""
 
-    if(GetMouseFocus()) then
+    if (GetMouseFocus()) then
         poi = GetMouseFocus().name or ""
     end
-
 
     if (zone == "" and poi == "") then
         ZoneInfoTW.text:SetText("")
