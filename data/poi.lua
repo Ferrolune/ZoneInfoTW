@@ -1,6 +1,24 @@
 local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain") or {}
 
 ZoneInfoTW.PointOfInterests = {
+
+
+    -- Kalimdor,
+    -- Durotar,
+    ["Skull Rock"] = {flag = "1001",low = 8,high = 14},
+    ["SparkwaterPort"] = {flag = "0100",low = 6,high = 9},
+    ["Drygulch Ravine"] = {flag = "1001",low = 7,high = 12},
+    ["Razorwind Canyon"] = {flag = "1001",low = 7,high = 8},
+    ["Tor'Kren Farm"] = {flag = "0100",low = 6,high = 11},
+    ["Thunder Ridge"] = {flag = "1001",low = 6,high = 12},
+    ["Razormane Grounds"] = {flag = "1001",low = 6,high = 11},
+    ["Razor Hill"] = {flag = "0100",low = 5,high = 8},
+    ["Tiragarde Keep"] = {flag = "1001",low = 5,high = 8},
+    ["Valley of Trials"] = {flag = "0100",low = 1,high = 5},
+    ["Sen'jin Village"] = {flag = "0100",low = 5,high = 7},
+    ["Kolkar Grag"] = {flag = "1001",low = 6,high = 8},
+    ["Echo Isles"] = {flag = "1001",low = 6,high = 11},
+
     -- Eastern Kingdoms
     -- Elwynn Forest
     ["Northshire Valley"] = {flag = "1010",low = 1,high = 5},
@@ -53,7 +71,6 @@ ZoneInfoTW.PointOfInterests = {
     ["Vul'Gol Ogre Mound"] = {flag = "1001",low = 23,high = 31},
 
     -- Redridge Mountains
-
     ["Three Corners"] = {flag = "1001",low = 14,high = 17},
     ["Lakeridge Highway"] = {flag = "1001",low = 15,high = 19},
     ["Render's Valley"] = {flag = "1001",low = 17,high = 22},
@@ -113,7 +130,6 @@ ZoneInfoTW.PointOfInterests = {
     ["Venture Co. Base Camp"] = {flag = "1001",low = 34,high = 37},
     ["Lake Nazferiti"] = {flag = "1001",low = 31,high = 36},
     ["Mizjah Ruins"] = {flag = "1001",low = 35,high = 37},
-    ["Grom'Gol Base Camp"] = {flag = "0100",low = 33,high = 38},
     ["Kal'ai Ruins"] = {flag = "1001",low = 35,high = 37},
     ["Nesingwary's Expedition"] = {flag = "1000",low = 30,high = 37},
     ["Ruins of Zul'Kunda"] = {flag = "1001",low = 32,high = 41},
@@ -138,23 +154,18 @@ ZoneInfoTW.PointOfInterests = {
     ["Rebel Camp"] = {flag = "0000",low = 30,high = 32},
     ["Bal'lal Ruins"] = {flag = "1001",low = 33,high = 38},
 
-
-    -- Kalimdor,
-    -- Durotar,
-    ["Skull Rock"] = {flag = "1001",low = 8,high = 14},
-    ["SparkwaterPort"] = {flag = "0100",low = 6,high = 9},
-    ["Drygulch Ravine"] = {flag = "1001",low = 7,high = 12},
-    ["Razorwind Canyon"] = {flag = "1001",low = 7,high = 8},
-    ["Tor'Kren Farm"] = {flag = "0100",low = 6,high = 11},
-    ["Thunder Ridge"] = {flag = "1001",low = 6,high = 12},
-    ["Razormane Grounds"] = {flag = "1001",low = 6,high = 11},
-    ["Razor Hill"] = {flag = "0100",low = 5,high = 8},
-    ["Tiragarde Keep"] = {flag = "1001",low = 5,high = 8},
-    ["Valley of Trials"] = {flag = "0100",low = 1,high = 5},
-    ["Sen'jin Village"] = {flag = "0100",low = 5,high = 7},
-    ["Kolkar Grag"] = {flag = "1001",low = 6,high = 8},
-    ["Echo Isles"] = {flag = "1001",low = 6,high = 11},
-
+    --Loch Modan
+    ["Valley of Kings"] = {flag = "0000",low = 10,high = 12},
+    ["Stonesplinter Valley"] = {flag = "1001",low = 10,high = 17},
+    ["Algaz Station"] = {flag = "0000",low = 10,high = 12},
+    ["North Gate Pass"] = {flag = "0000",low = 10,high = 12},
+    ["Silver Stream Mine"] = {flag = "1001",low = 10,high = 14},
+    ["Stonewrought Dam"] = {flag = "0000",low = 11,high = 19},
+    ["The Loch"] = {flag = "1001",low = 12,high = 20},
+    ["Ironband's Excavation Site"] = {flag = "1001",low = 13,high = 20},
+    ["The Farstrider Lodge"] = {flag = "0000",low = 13,high = 16},
+    ["Mo'grosh Stronghold"] = {flag = "1001",low = 18,high = 22},
+    ["Grizzlepaw Ridge"] = {flag = "1001",low = 11,high = 20},
 
     --Gilneas
     ["Brol'ok Mound"]={flag="1001",low=41,high=47},
@@ -218,6 +229,67 @@ ZoneInfoTW.PointOfInterests = {
     ["The Marris Stead"]={flag="0100",low=53,high=54},
     ["The Fungal Vale"]={flag="1001",low=57,high=60},
     ["Thondroril River"]={flag="1001",low=53,high=55},
+
+
+    --Silverpine Forest
+    ["Pyrewood Village"]={flag="000",low=13,high=15},
+    ["Shadowfang Keep"]={flag="1001",low=12,high=13},
+    ["Beren's Peril"]={flag="1001",low=18,high=20},
+    ["Ambermill"]={flag="0000",low=11,high=22},
+    ["Olsen's Farthing"]={flag="1001",low=11,high=13},
+    ["Deep Elem Mine"]={flag="1001",low=12,high=15},
+    ["The Decrepit Ferry"]={flag="0100",low=14,high=16},
+    ["Lordamere Lake"]={flag="1001",low=12,high=16},
+    ["Valgan's Field"]={flag="1001",low=10,high=12},
+    ["The Dead Field"]={flag="1001",low=11,high=14},
+    ["North Tide's Hollow"]={flag="1001",low=12,high=15},
+    ["The Skittering Dark"]={flag="1001",low=12,high=25},
+    ["The Ivar Patch"]={flag="1001",low=11,high=13},
+    ["Malden's Orchard"]={flag="1001",low=11,high=13},
+    ["The Shining Strand"]={flag="1001",low=10,high=14},
+    ["The Dawning Isles"]={flag="1001",low=15,high=20},
+    ["Fenris Isle"]={flag="1001",low=15,high=20},
+    ["Fenris Keep"]={flag="1001",low=18,high=24},
+
+    --Hillsbrad Foothills
+    ["Southpoint Tower"]={flag="1001",low=20,high=26},
+    ["Azurelode Mine"]={flag="0000",low=24,high=29},
+    ["Western Strand"]={flag="1001",low=28,high=32},
+    ["Hillsbrad Fields"]={flag="0000",low=22,high=33},
+    ["Darrow Hill"]={flag="1001",low=22,high=32},
+    ["Durnholde Keep"]={flag="1001",low=20,high=24},
+    ["Nethander Stead"]={flag="1001",low=24,high=28},
+    ["Eastern Strand"]={flag="1001",low=28,high=32},
+    ["Dun Garok"]={flag="1001",low=26,high=30},
+    ["Purgation Isle"]={flag="1001",low=57,high=60},
+
+    --Swamp of Sorrows
+    ["Sorrowguard Keep"]={flag="0000",low=36,high=37},
+    ["Misty Valley"]={flag="1001",low=38,high=42},
+    ["Itharius's Cave"]={flag="1001",low=34,high=36},
+    ["Splinterspear Junction"]={flag="1001",low=35,high=37},
+    ["The Harborage"]={flag="1000",low=35,high=37},
+    ["The Shifting Mire"]={flag="1001",low=35,high=41},
+    ["Fallow Sanctuary"]={flag="1001",low=35,high=38},
+    ["Stagalbog Cave"]={flag="1001",low=42,high=50},
+    ["Stagalbog"]={flag="1001",low=40,high=42},
+    ["Pool of Tears"]={flag="1001",low=38,high=62},
+    ["Temple of Atal'Hakkar"]={flag="1001",low=45,high=47},
+    ["Misty Reed Strand"]={flag="1001",low=40,high=45},
+    ["Sorrowmurk"]={flag="1001",low=40,high=45},
+    ["Misty Reed Post"]={flag="0100",low=40,high=43},
+
+    --Blasted Lands
+    ["Nethergarde Keep"]={flag="0000",low=45,high=50},
+    ["Garrison Armory"]={flag="1001",low=47,high=54},
+    ["Dreadmaul Hold"]={flag="1001",low=45,high=58},
+    ["Rise of the Defiler"]={flag="1001",low=45,high=50},
+    ["Altar of Storms"]={flag="1001",low=53,high=59},
+    ["Dreadmaul Post"]={flag="1001",low=48,high=54},
+    ["Serpent's Coil"]={flag="1001",low=47,high=58},
+    ["The Dark Portal"]={flag="1001",low=48,high=57},
+    ["The Tainted Scar"]={flag="1001",low=60,high=62},
+
 
 }
 

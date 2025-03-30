@@ -20,14 +20,14 @@ ZoneInfoTW.Towns = {
     ["Thalanaar"] = {flag = "0000"},
     ["Aerie Peak"] = {flag = "0000"},
     ["Hammerfall"] = {flag = "0100"},
-    ["Southshore"] = {flag = "0000"},
-    ["Ravenshire"] = {flag = "0000",low=41,high=43},
+    ["Southshore"]={flag="0000",low=25,high=38},
     ["Menethil Harbor"] = {flag = "0000"},
-    ["Thelsamar"] = {flag = "0000"},
+    ["Thelsamar"] = {flag = "0000",low = 10,high = 15},
     ["Lakeshire"] = {flag = "0000",low = 16,high = 24},
-    ["Stonard"] = {flag = "0000"},
+    ["Stonard"]={flag="0100",low=36,high=40},
     ["Darkshire"] = {flag = "0000",low = 24,high = 25},
     ["Sentinel Hill"] = {flag = "0000",low = 11,high = 17},
+    ["Ravenshire"] = {flag = "0000",low=41,high=43},
 
     -- Horde Towns
     ["Splintertree Post"] = {flag = "0100"},
@@ -38,9 +38,9 @@ ZoneInfoTW.Towns = {
     ["Shadowprey Village"] = {flag = "0100"},
     ["Camp Mojache"] = {flag = "0100"},
     ["Freewind Post"] = {flag = "0100"},
-    ["Tarren Mill"] = {flag = "0100"},
-    ["The Sepulcher"] = {flag = "0100"},
+    ["Tarren Mill"]={flag="0100",low=20,high=22},
+    ["The Sepulcher"]={flag="0100",low=10,high=11},
     ["Kargath"] = {flag = "0100"},
-    ["Grom'gol Base Camp"] = {flag = "0100"},
+    ["Grom'Gol Base Camp"] = {flag = "0100",low = 33,high = 38},
 }
 
