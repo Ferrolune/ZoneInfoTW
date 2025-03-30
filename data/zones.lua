@@ -19,7 +19,9 @@ ZoneInfoTW.Zones = {
     ["Duskwood"] = {
         flag = "1010",
         low = 18,
-        high = 30
+        low_accurate = 18,
+        high = 30,
+        high_accurate = 35
     },
     ["Wetlands"] = {
         flag = "1010",

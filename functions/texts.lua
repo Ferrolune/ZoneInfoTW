@@ -1,8 +1,7 @@
 local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain") or {}
 local useAccurateWhereAvailable = true
 
-
-function ZoneInfoTW:GetAccurateLevels(target,table)
+function ZoneInfoTW:GetAccurateLevels(target, table)
     if useAccurateWhereAvailable and table[target].low_accurate and table[target].high_accurate then
         return {table[target].low_accurate, table[target].high_accurate}
     else
@@ -12,7 +11,7 @@ end
 
 function ZoneInfoTW:GetColoredLevelRange(target, table)
     local colors = ZoneInfoTW.Colors["Levels"]
-    local levelrange = ZoneInfoTW:GetAccurateLevels(target,table)
+    local levelrange = ZoneInfoTW:GetAccurateLevels(target, table)
 
     if table[target] and levelrange[1] and levelrange[2] then
         local color, range = ZoneInfoTW:GetLevelColor(target, table), levelrange[1] .. "-" .. levelrange[2]
@@ -22,21 +21,52 @@ function ZoneInfoTW:GetColoredLevelRange(target, table)
     return string.format(" |cff%02x%02x%02x[%s]|r", colors.Gray[1], colors.Gray[2], colors.Gray[3], "MISSING")
 end
 
+-- Helper function for linear interpolation between two RGB colors
+local function InterpolateColor(c1, c2, factor)
+    local r = c1[1] + (c2[1] - c1[1]) * factor
+    local g = c1[2] + (c2[2] - c1[2]) * factor
+    local b = c1[3] + (c2[3] - c1[3]) * factor
+    return {r, g, b}
+end
+
 function ZoneInfoTW:GetLevelColor(target, table)
-    local low, charLevel = table[target].low, UnitLevel("player")
+    local min = table[target].low
+    local max = table[target].high
+    local playerlevel = UnitLevel("player")
 
-    if not low then
-        return ZoneInfoTW.Colors["Levels"]["Gray"]
-    end
 
-    for _, t in ipairs(ZoneInfoTW.colorThresholds) do
-        if low >= charLevel + t.offset then
-            return ZoneInfoTW.Colors["Levels"][t.color]
+    if playerlevel < min then
+        if playerlevel <= min - 10 then
+            return ZoneInfoTW.Colors["Levels"]["Black"]
+        else
+            local factor = (playerlevel - (min - 10)) / 10
+            return InterpolateColor(ZoneInfoTW.Colors["Levels"]["Black"], ZoneInfoTW.Colors["Levels"]["Red"], factor)
         end
     end
 
-    return ZoneInfoTW.Colors["Levels"]["Gray"]
+
+    if playerlevel <= max then
+        local mid = (min + max) / 2
+        if playerlevel <= mid then
+            local factor = (playerlevel - min) / (mid - min)
+            return
+                InterpolateColor(ZoneInfoTW.Colors["Levels"]["Orange"], ZoneInfoTW.Colors["Levels"]["Yellow"], factor)
+        else
+            local factor = (playerlevel - mid) / (max - mid)
+            return InterpolateColor(ZoneInfoTW.Colors["Levels"]["Yellow"], ZoneInfoTW.Colors["Levels"]["Green"], factor)
+        end
+    end
+
+
+    if playerlevel < max + 6 then
+        local factor = (playerlevel - max) / 6
+        return InterpolateColor(ZoneInfoTW.Colors["Levels"]["Green"], ZoneInfoTW.Colors["Levels"]["Gray"], factor)
+    else
+        return ZoneInfoTW.Colors["Levels"]["Gray"]
+    end
 end
+
+
 
 function ZoneInfoTW:GetColoredName(target, table)
     local colors = ZoneInfoTW.Colors["Factions"]

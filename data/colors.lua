@@ -16,26 +16,10 @@ ZoneInfoTW.Colors["Levels"] = {
     ["Yellow"] = {255, 255, 0},
     ["Green"] = {0, 255, 0},
     ["Gray"] = {128, 128, 128},
-    ["Skull"] = {0, 0, 0}
+    ["Black"] = {0, 0, 0}
 }
 
 ZoneInfoTW.Colors["Errors"] = {
     ["BAD_FACTION"] = {128, 128, 128}
 }
 
-ZoneInfoTW.colorThresholds = {{
-    offset = 10,
-    color = "Skull"
-}, {
-    offset = 5,
-    color = "Red"
-}, {
-    offset = 3,
-    color = "Orange"
-}, {
-    offset = -2,
-    color = "Yellow"
-}, {
-    offset = -5,
-    color = "Green"
-}}
