@@ -21,7 +21,7 @@ ZoneInfoTW.Towns = {
     ["Aerie Peak"] = {flag = "0000"},
     ["Hammerfall"] = {flag = "0100"},
     ["Southshore"] = {flag = "0000"},
-    ["Ravenshire"] = {flag = "0000"},
+    ["Ravenshire"] = {flag = "0000",low=41,high=43},
     ["Menethil Harbor"] = {flag = "0000"},
     ["Thelsamar"] = {flag = "0000"},
     ["Lakeshire"] = {flag = "0000",low = 16,high = 24},

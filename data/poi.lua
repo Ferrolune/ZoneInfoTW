@@ -157,7 +157,6 @@ ZoneInfoTW.PointOfInterests = {
 
 
     --Gilneas
-    ["Ravenshire"]={flag="1001",low=41,high=43},
     ["Brol'ok Mound"]={flag="1001",low=41,high=47},
     ["The Overgrown Acre"]={flag="1001",low=41,high=43},
     ["Southmire Orchard"]={flag="1001",low=39,high=44},
@@ -203,7 +202,7 @@ ZoneInfoTW.PointOfInterests = {
     ["Quel'Lithien Lodge"]={flag="0000",low=56,high=60},
     ["Northdale"]={flag="1001",low=56,high=59},
     ["Zul'Mashar"]={flag="1001",low=57,high=60},
-    ["EastWall Tower"]={flag="1001",low=57,high=58},
+    ["Eastwall Tower"]={flag="1001",low=57,high=58},
     ["Blackwood Lake"]={flag="1001",low=54,high=58},
     ["Browman Mill"]={flag="1001",low=57,high=60},
     ["The Noxious Glade"]={flag="1001",low=57,high=60},

@@ -48,7 +48,7 @@ ZoneInfoTW.Zones = {
     ["Thalassian Highlands"] = {flag = "0000",low = 1,low_accurate = 1,high = 10,high_accurate = 11},
     ["Lapidis Isle"] = {flag = "1010",low = 48,high = 53},
     ["Gillijim's Isle"] = {flag = "1010",low = 48,high = 53},
-    ["Scarlet Enclave"] = {flag = "1010",low = 55,high = 60},
+    ["Scarlet Enclave"] = {flag = "1010",low = 53,high = 60},
     ["Gilneas"] = {flag = "0000",low = 39,high = 46},
     ["Icepoint Rock"] = {flag = "1010",low = 40,high = 50},
     ["Blackstone Island"] = {flag = "0100",low = 1,high = 10},
