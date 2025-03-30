@@ -65,7 +65,9 @@ ZoneInfoTW.Towns = {
         flag = "0000"
     },
     ["Lakeshire"] = {
-        flag = "0000"
+        flag = "0000",
+        low = 16,
+        high = 24
     },
     ["Stonard"] = {
         flag = "0000"

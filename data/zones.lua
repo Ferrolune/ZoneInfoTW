@@ -4,7 +4,9 @@ ZoneInfoTW.Zones = {
     ["Redridge Mountains"] = {
         flag = "1010",
         low = 15,
-        high = 25
+        low_accurate = 14,
+        high = 25,
+        high_accurate = 27
     },
     ["Stonetalon Mountains"] = {
         flag = "1010",

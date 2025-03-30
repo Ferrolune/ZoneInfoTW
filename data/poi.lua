@@ -259,8 +259,58 @@ ZoneInfoTW.PointOfInterests = {
         low = 21,
         high = 27
     },
-
-
+    ["Galardell Valley"] = {
+        flag = "1001",
+        low = 21,
+        high = 27
+    },
+    ["Alther's Mill"] = {
+        flag = "1001",
+        low = 18,
+        high = 20
+    },
+    ["Redridge Canyons"] = {
+        flag = "1001",
+        low = 17,
+        high = 22
+    },
+    ["Rethban Caverns"] = {
+        flag = "1001",
+        low = 19,
+        high = 24
+    },
+    ["Lake Everstill"] = {
+        flag = "1001",
+        low = 16,
+        high = 25
+    },
+    ["Render's Camp"] = {
+        flag = "1001",
+        low = 16,
+        high = 25
+    },
+    ["Render's Rock"] = {
+        flag = "1001",
+        low = 22,
+        high = 25
+    },
+    --Dun Morough
+    ["Anvilmar"] = {
+        flag = "0000",
+        low = 1,
+        high = 3
+    },
+    ["Coldridge Valley"] = {
+        flag = "1010",
+        low = 1,
+        high = 5
+    },
+    ["The Grizzled Den"] = {
+        flag = "1001",
+        low = 5,
+        high = 7
+    },
+    --Stranglethorn Vale
 
 
     -- Kalimdor,
@@ -330,6 +380,93 @@ ZoneInfoTW.PointOfInterests = {
         low = 6,
         high = 11
     },
+
+    --Thalassian Highlands
+    ["Felstrider Retreat"] = {
+        flag = "1001",
+        low = 8,
+        high = 11
+    },
+    ["Silver Sun Mine"] = {
+        flag = "1001",
+        low = 4,
+        high = 5
+    },
+
+    ["The Last Runestone"] = {
+        flag = "0000",
+        low = 5,
+        high = 7
+    },
+
+    ["Thaumarium"] = {
+        flag = "0000",
+        low = 2,
+        high = 7
+    },
+
+    ["Brinthilien"] = {
+        flag = "0000",
+        low = 1,
+        high = 5
+    },
+
+    ["Silver Covenant Park"] = {
+        flag = "0000",
+        low = 5,
+        high = 7
+    },
+
+    ["Anasterian Park"] = {
+        flag = "0000",
+        low = 5,
+        high = 8
+    },
+
+    ["Ballador's Chapel"] = {
+        flag = "0000",
+        low = 5,
+        high = 7
+    },
+
+    ["Ruins of Nashal'aran"] = {
+        flag = "1001",
+        low = 9,
+        high = 11
+    },
+
+    ["Deepmurk Cave"] = {
+        flag = "1001",
+        low = 9,
+        high = 9
+    },
+
+    ["The Farstride"] = {
+        flag = "1001",
+        low = 6,
+        high = 10
+    },
+
+    ["Isle of Eternal Autumn"] = {
+        flag = "0000",
+        low = 6,
+        high = 10
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
