@@ -32,6 +32,13 @@ ZoneInfoTW.DisplayRules = {{
                    ZoneInfoTW:GetColoredLevelRange(poi, ZoneInfoTW.PointOfInterests)
     end
 }, {
+    check = function(continent)
+        return ZoneInfoTW.Continents[continent]
+    end,
+    get = function(continent)
+        return ZoneInfoTW:GetColoredName(continent, ZoneInfoTW.PointOfInterests)
+    end
+}, {
     check = function(poi)
         return true
     end,

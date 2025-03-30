@@ -18,6 +18,7 @@ functions\texts.lua
 
 data\cities.lua
 data\colors.lua
+data\continents.lua
 data\dungeons.lua
 data\poi.lua
 data\rules.lua

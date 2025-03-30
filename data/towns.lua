@@ -117,7 +117,6 @@ ZoneInfoTW.Towns = {
     },
     ["Grom'gol Base Camp"] = {
         flag = "0100"
-    }
-
+    },
 }
 
