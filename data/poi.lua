@@ -178,7 +178,7 @@ ZoneInfoTW.PointOfInterests = {
     ["Blackthorn's Camp"]={flag="0100",low=42,high=60},
     ["The Dryrock Mine"]={flag="1001",low=39,high=45},
     ["Shademore Tavern"]={flag="0000",low=42,high=44},
-    ["Ruins of Greyshire "]={flag="1001",low=39,high=48},
+    ["Ruins of Greyshire"]={flag="1001",low=39,high=48},
     ["Westgate Tower"]={flag="1001",low=39,high=42},
     ["Mossgrove Farm"]={flag="0000",low=39,high=40},
     ["Stillward Church"]={flag="0100",low=39,high=41},

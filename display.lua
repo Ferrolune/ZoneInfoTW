@@ -27,7 +27,7 @@ function ZoneInfoTW:UpdateZoneDisplayText()
     local lookup = poi ~= "" and poi or zone
     local entry = ""
 
-    --lookup = ZoneInfoTW:trim(lookup)
+    lookup = ZoneInfoTW:trim(lookup)
 
     for _, rule in ipairs(ZoneInfoTW.DisplayRules) do
         if rule.check(lookup) then
