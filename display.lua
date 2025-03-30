@@ -26,6 +26,9 @@ function ZoneInfoTW:UpdateZoneDisplayText()
 
     local lookup = poi ~= "" and poi or zone
     local entry = ""
+
+    lookup = ZoneInfoTW:trim(lookup)
+
     for _, rule in ipairs(ZoneInfoTW.DisplayRules) do
         if rule.check(lookup) then
             entry = rule.get(lookup)
@@ -36,4 +39,8 @@ function ZoneInfoTW:UpdateZoneDisplayText()
     table.insert(ZoneInfo, entry)
 
     ZoneInfoTW.text:SetText(table.concat(ZoneInfo, "\n"))
+end
+
+function ZoneInfoTW:trim(s)
+    return (string.gsub(s, "^%s*(.-)%s*$", "%1"))
 end

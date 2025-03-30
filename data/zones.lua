@@ -52,5 +52,5 @@ ZoneInfoTW.Zones = {
     ["Gilneas"] = {flag = "0000",low = 39,high = 46},
     ["Icepoint Rock"] = {flag = "1010",low = 40,high = 50},
     ["Blackstone Island"] = {flag = "0100",low = 1,high = 10},
-    ["Hyjal"] = {flag = "1010",low = 58,high = 60}
+    ["Hyjal"] = {flag = "1010",low = 58,high = 60},
 }
