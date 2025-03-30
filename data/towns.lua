@@ -71,7 +71,9 @@ ZoneInfoTW.Towns = {
         flag = "0000"
     },
     ["Darkshire"] = {
-        flag = "0000"
+        flag = "0000",
+        low = 24,
+        high = 25
     },
     ["Sentinel Hill"] = {
         flag = "0000",

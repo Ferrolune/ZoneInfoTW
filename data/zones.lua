@@ -155,7 +155,9 @@ ZoneInfoTW.Zones = {
     ["Elwynn Forest"] = {
         flag = "0000",
         low = 1,
-        high = 10
+        low_accurate = 1,
+        high = 10,
+        high_accurate = 11
     },
     ["Teldrassil"] = {
         flag = "0000",
@@ -175,31 +177,35 @@ ZoneInfoTW.Zones = {
     ["Westfall"] = {
         flag = "0000",
         low = 10,
-        high = 20
+        low_accurate = 9,
+        high = 20,
+        high_accurate = 24
     },
 
     ["Durotar"] = {
         flag = "0100",
         low = 1,
-        high = 10
+        low_accurate = 1,
+        high = 10,
+        high_accurate = 14
     },
     ["Mulgore"] = {
-        flag = "0100",
+		flag = "0100",
         low = 1,
         high = 10
     },
     ["Tirisfal Glades"] = {
-        flag = "0100",
+		flag = "0100",
         low = 1,
         high = 10
     },
     ["Silverpine Forest"] = {
-        flag = "0100",
+		flag = "0100",
         low = 10,
         high = 20
     },
     ["The Barrens"] = {
-        flag = "0100",
+		flag = "0100",
         low = 10,
         high = 25
     },
@@ -241,7 +247,7 @@ ZoneInfoTW.Zones = {
         high = 50
     },
     ["Blackstone Island"] = {
-        flag = "0100",
+		flag = "0100",
         low = 1,
         high = 10
     },

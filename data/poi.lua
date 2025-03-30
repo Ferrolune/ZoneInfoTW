@@ -101,7 +101,7 @@ ZoneInfoTW.PointOfInterests = {
 
     -- Westfall,
     ["The Jansen Stead"] = {
-        flag = "1001",
+        flag = "0000",
         low = 9,
         high = 13
     },
@@ -121,10 +121,121 @@ ZoneInfoTW.PointOfInterests = {
         high = 15
     },
     ["Saldean's Farm"] = {
-        flag = "1001",
+        flag = "0000",
         low = 10,
         high = 15
     },
+    ["The Dead Acre"] = {
+        flag = "1001",
+        low = 16,
+        high = 21
+    },
+    ["The Dust Plains"] = {
+        flag = "1001",
+        low = 16,
+        high = 24
+    },
+    ["The Dagger Hills"] = {
+        flag = "1001",
+        low = 15,
+        high = 18
+    },
+    ["Demont's Place"] = {
+        flag = "1001",
+        low = 13,
+        high = 18
+    },
+    ["Westfall Lighthouse"] = {
+        flag = "0000",
+        low = 16,
+        high = 20
+    },
+    ["Gold Coast Quarry"] = {
+        flag = "1001",
+        low = 11,
+        high = 17
+    },
+    ["Alexston Farmstead"] = {
+        flag = "1001",
+        low = 12,
+        high = 15
+    },
+    ["Moonbrook"] = {
+        flag = "1001",
+        low = 11,
+        high = 16
+    },
+
+    --Duskwood
+    ["Addle's Stead"] = {
+        flag = "1001",
+        low = 18,
+        high = 25
+    },
+    ["Raven Hill"] = {
+        flag = "0000",
+        low = 24,
+        high = 25
+    },
+    ["Raven Hill Cemetery"] = {
+        flag = "1001",
+        low = 23,
+        high = 35
+    },
+    ["The Hushed Bank"] = {
+        flag = "1001",
+        low = 18,
+        high = 21
+    },
+    ["The Darkened Bank"] = {
+        flag = "1001",
+        low = 18,
+        high = 22
+    },
+    ["Brightwood Grove"] = {
+        flag = "1001",
+        low = 23,
+        high = 29
+    },
+    ["Manor Mistmantle"] = {
+        flag = "1001",
+        low = 29,
+        high = 32
+    },
+    ["Tranquil Gardens Cemetery"] = {
+        flag = "1001",
+        low = 21,
+        high = 26
+    },
+    ["Roland's Doom"] = {
+        flag = "1001",
+        low = 29,
+        high = 32
+    },
+    ["The Rotting Orchard"] = {
+        flag = "1001",
+        low = 27,
+        high = 29
+    },
+    ["The Yorgen Farmstead"] = {
+        flag = "1001",
+        low = 23,
+        high = 27
+    },
+    ["Vul'Gol Ogre Mound"] = {
+        flag = "1001",
+        low = 23,
+        high = 31
+    },
+    ["Twilight Grove"] = {
+        flag = "1001",
+        low = 60,
+        high = 63
+    },
+
+    --Redridge Mountains
+
+
     -- Kalimdor,
     -- Durotar,
     ["Skull Rock"] = {
@@ -166,7 +277,33 @@ ZoneInfoTW.PointOfInterests = {
         flag = "0100",
         low = 5,
         high = 8
-    }
+    },
+    ["Tiragarde Keep"] = {
+        flag = "1001",
+        low = 5,
+        high = 8
+    },
+    ["Valley of Trials"] = {
+        flag = "0100",
+        low = 1,
+        high = 5
+    },
+    ["Sen'jin Village"] = {
+        flag = "0100",
+        low = 5,
+        high = 7
+    },
+    ["Kolkar Grag"] = {
+        flag = "1001",
+        low = 6,
+        high = 8
+    },
+    ["Echo Isles"] = {
+        flag = "1001",
+        low = 6,
+        high = 11
+    },
+
 
 }
 

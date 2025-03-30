@@ -1,10 +1,21 @@
 local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain") or {}
+local useAccurateWhereAvailable = true
+
+
+function ZoneInfoTW:GetAccurateLevels(target,table)
+    if useAccurateWhereAvailable and table[target].low_accurate and table[target].high_accurate then
+        return {table[target].low_accurate, table[target].high_accurate}
+    else
+        return {table[target].low, table[target].high}
+    end
+end
 
 function ZoneInfoTW:GetColoredLevelRange(target, table)
     local colors = ZoneInfoTW.Colors["Levels"]
+    local levelrange = ZoneInfoTW:GetAccurateLevels(target,table)
 
-    if table[target] and table[target].high and table[target].low then
-        local color, range = ZoneInfoTW:GetLevelColor(target, table), table[target].low .. "-" .. table[target].high
+    if table[target] and levelrange[1] and levelrange[2] then
+        local color, range = ZoneInfoTW:GetLevelColor(target, table), levelrange[1] .. "-" .. levelrange[2]
         return string.format(" |cff%02x%02x%02x[%s]|r", color[1], color[2], color[3], range)
     end
 
@@ -13,6 +24,7 @@ end
 
 function ZoneInfoTW:GetLevelColor(target, table)
     local low, charLevel = table[target].low, UnitLevel("player")
+
     if not low then
         return ZoneInfoTW.Colors["Levels"]["Gray"]
     end
