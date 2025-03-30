@@ -34,3 +34,37 @@ function ZoneInfoTW:GetColoredName(target, table)
 
     return string.format(" |cff%02x%02x%02x%s|r", colors.Gray[1], colors.Gray[2], colors.Gray[3], target)
 end
+
+function ZoneInfoTW:GetLevelColor(target, table)
+    local min = table[target].low
+    local max = table[target].high
+    local playerlevel = UnitLevel("player")
+
+    if playerlevel < min then
+        if playerlevel <= min - 10 then
+            return ZoneInfoTW.Colors["Levels"]["Black"]
+        else
+            local factor = (playerlevel - (min - 10)) / 10
+            return InterpolateColor(ZoneInfoTW.Colors["Levels"]["Black"], ZoneInfoTW.Colors["Levels"]["Red"], factor)
+        end
+    end
+
+    if playerlevel <= max then
+        local mid = (min + max) / 2
+        if playerlevel <= mid then
+            local factor = (playerlevel - min) / (mid - min)
+            return
+                InterpolateColor(ZoneInfoTW.Colors["Levels"]["Orange"], ZoneInfoTW.Colors["Levels"]["Yellow"], factor)
+        else
+            local factor = (playerlevel - mid) / (max - mid)
+            return InterpolateColor(ZoneInfoTW.Colors["Levels"]["Yellow"], ZoneInfoTW.Colors["Levels"]["Green"], factor)
+        end
+    end
+
+    if playerlevel < max + 6 then
+        local factor = (playerlevel - max) / 6
+        return InterpolateColor(ZoneInfoTW.Colors["Levels"]["Green"], ZoneInfoTW.Colors["Levels"]["Gray"], factor)
+    else
+        return ZoneInfoTW.Colors["Levels"]["Gray"]
+    end
+end
