@@ -1,7 +1,20 @@
 local ZoneInfoTW = getglobal("ZoneInfoTWFrameMain") or {}
 local useAccurateWhereAvailable = true
 
+function ZoneInfoTW:GetRealTable(table, target)
+    local zone = ZoneInfoTW.lastZone[1]
+    local t = table
+    if table[zone] then
+     if table[zone][target] then
+            t = table[zone]
+        end
+    end
+    return t
+end
+
 function ZoneInfoTW:GetAccurateLevels(target, table)
+    table = ZoneInfoTW:GetRealTable(table,target)
+
     if useAccurateWhereAvailable and table[target].low_accurate and table[target].high_accurate then
         return {table[target].low_accurate, table[target].high_accurate}
     else
@@ -10,10 +23,12 @@ function ZoneInfoTW:GetAccurateLevels(target, table)
 end
 
 function ZoneInfoTW:GetColoredLevelRange(target, table)
+    table = ZoneInfoTW:GetRealTable(table, target)
     local colors = ZoneInfoTW.Colors["Levels"]
     local levelrange = ZoneInfoTW:GetAccurateLevels(target, table)
 
-    if table[target] and levelrange[1] and levelrange[2] then
+
+    if table and levelrange[1] and levelrange[2] then
         local color, range = ZoneInfoTW:GetLevelColor(target, table), levelrange[1] .. "-" .. levelrange[2]
         return string.format(" |cff%02x%02x%02x[%s]|r", color[1], color[2], color[3], range)
     end
@@ -24,9 +39,10 @@ end
 
 function ZoneInfoTW:GetColoredName(target, table)
     local colors = ZoneInfoTW.Colors["Factions"]
+    local t = ZoneInfoTW:GetRealTable(table, target)
 
-    if table[target] then
-        local flag = table[target].flag
+    if t[target] then
+        local flag = t[target].flag
         local adjustedFlag = ZoneInfoTW:AdjustFlagForPlayerFaction(flag)
         local color = ZoneInfoTW.reactionColors[adjustedFlag]
         return string.format("%s%s|r", color, target)
@@ -36,8 +52,9 @@ function ZoneInfoTW:GetColoredName(target, table)
 end
 
 function ZoneInfoTW:GetLevelColor(target, table)
-    local min = table[target].low
-    local max = table[target].high
+    local t = ZoneInfoTW:GetRealTable(table, target)
+    local min = t[target].low
+    local max = t[target].high
     local playerlevel = UnitLevel("player")
 
     if playerlevel < min then

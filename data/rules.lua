@@ -22,14 +22,20 @@ ZoneInfoTW.DisplayRules = {{
     get = function(zone)
         return ZoneInfoTW:GetColoredName(zone, ZoneInfoTW.Zones) .. " " ..
                    ZoneInfoTW:GetColoredLevelRange(zone, ZoneInfoTW.Zones)
+    end,
+    isZone = function(zone)
+        return ZoneInfoTW.Zones[zone] ~= nil
     end
+
 }, {
     check = function(poi)
-        return ZoneInfoTW.PointOfInterests[poi]
+        local zone = ZoneInfoTW.ZoneShortsToFullName[ZoneInfoTW.lastZone[1]]
+        return ZoneInfoTW.PointOfInterests[zone] and ZoneInfoTW.PointOfInterests[zone][poi]
     end,
     get = function(poi)
-        return ZoneInfoTW:GetColoredName(poi, ZoneInfoTW.PointOfInterests) .. " " ..
-                   ZoneInfoTW:GetColoredLevelRange(poi, ZoneInfoTW.PointOfInterests)
+        local zone = ZoneInfoTW.ZoneShortsToFullName[ZoneInfoTW.lastZone[1]]
+        return ZoneInfoTW:GetColoredName(poi, ZoneInfoTW.PointOfInterests[zone]) .. " " ..
+                   ZoneInfoTW:GetColoredLevelRange(poi, ZoneInfoTW.PointOfInterests[zone])
     end
 }, {
     check = function(continent)

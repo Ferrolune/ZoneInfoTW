@@ -8,9 +8,12 @@ function ZoneInfoTW:SetupText()
     ZoneInfoTW.text:SetWidth(1024)
 end
 
+
+
 function ZoneInfoTW:UpdateZoneDisplayText()
     local zone = WorldMapFrameAreaLabel:GetText() or ""
     local poi = ""
+
 
     if (GetMouseFocus()) then
         poi = GetMouseFocus().name or ""
@@ -21,6 +24,7 @@ function ZoneInfoTW:UpdateZoneDisplayText()
         return
     end
 
+
     local ZoneInfo = {}
     WorldMapFrameAreaLabel:SetText()
 
@@ -28,6 +32,18 @@ function ZoneInfoTW:UpdateZoneDisplayText()
     local entry = ""
 
     lookup = ZoneInfoTW:trim(lookup)
+
+    ZoneInfoTW.lastZoneID = ZoneInfoTW.lastZoneID or GetCurrentMapZone()
+    ZoneInfoTW.lastZone = ZoneInfoTW.lastZone or {GetMapInfo(), GetCurrentMapZone()}
+    local mapFileName, textureHeight, textureWidth, isMicrodungeon, microDungeonMapName = GetMapInfo();
+
+    local currentZoneID = GetCurrentMapZone()
+    if currentZoneID ~= ZoneInfoTW.lastZoneID then
+        ZoneInfoTW.lastZone = {mapFileName, currentZoneID}
+        ZoneInfoTW.lastZoneID = currentZoneID
+    end
+
+
 
     for _, rule in ipairs(ZoneInfoTW.DisplayRules) do
         if rule.check(lookup) then
@@ -44,3 +60,4 @@ end
 function ZoneInfoTW:trim(s)
     return (string.gsub(s, "^%s*(.-)%s*$", "%1"))
 end
+
