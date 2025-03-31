@@ -359,6 +359,12 @@ ZoneInfoTW.PointOfInterests = {
             ["Kazon Island"]={flag="1000",low=51,high=55},
             ["Kalkor Point"]={flag="1010",low=51,high=53},
         },
+
+        ["Ashenvale"] = {
+            ["Ruins of Ordil'Aran"]={flag="1001",low=18,high=21},
+            ["Bathran's Haunt"]={flag="1001",low=18,high=20},
+
+        },
     -- regex to find rows where low = high, please fix these: low\s*=\s*(\d+)\s*,\s*high\s*=\s*\1
 }
 
