@@ -189,7 +189,7 @@ ZoneInfoTW.PointOfInterests = {
             ["Glaymore Stead"]={flag="1000",low=39,high=41},
             ["Rosewick Plantation"]={flag="1001",low=41,high=43},
             ["Vagrant Encampment"]={flag="0000",low=39,high=41},
-            ["The Greymane Wall"]={flag="0000",low= 18, high=40 },
+            ["The Greymane Wall"]={flag="0000",low= 39, high=40 },
             ["Oldrock Pass"]={flag="1001",low=41,high=45},
             ["Dawnstone Mine"]={flag="1001",lowD=39,high=43},
             ["Gilneas City"]={flag="1001",low=39,high=40},
@@ -237,7 +237,7 @@ ZoneInfoTW.PointOfInterests = {
         },
 
         ["Silverpine Forest"] = {
-            ["Pyrewood Village"]={flag="000",low=13,high=15},
+            ["Pyrewood Village"]={flag="0000",low=13,high=15},
             ["Shadowfang Keep"]={flag="1001",low=12,high=13},
             ["Beren's Peril"]={flag="1001",low=18,high=20},
             ["Ambermill"]={flag="0000",low=11,high=22},
@@ -249,12 +249,13 @@ ZoneInfoTW.PointOfInterests = {
             ["The Dead Field"]={flag="1001",low=11,high=14},
             ["North Tide's Hollow"]={flag="1001",low=12,high=15},
             ["The Skittering Dark"]={flag="1001",low=12,high=25},
-            ["The Ivar Patch"]={flag="1001",low=11,high=13},
+            ["Ivar's Patch"]={flag="1001",low=11,high=13},
             ["Malden's Orchard"]={flag="1001",low=11,high=13},
             ["The Shining Strand"]={flag="1001",low=10,high=14},
             ["The Dawning Isles"]={flag="1001",low=15,high=20},
             ["Fenris Isle"]={flag="1001",low=15,high=20},
             ["Fenris Keep"]={flag="1001",low=18,high=24},
+            ["The Greymane Wall"]={flag="0000",low= 15, high=25},
         },
         ["Hillsbrad Foothills"] = {
             ["Southpoint Tower"]={flag="1001",low=20,high=26},
@@ -370,6 +371,7 @@ ZoneInfoTW.PointOfInterests = {
             ["The Zoram Strand"]={flag="1001",low=18,high=22},
             ["Zoram'gar Outpost"]={flag="0100",low=18,high=22},
             ["Lake Falathim"]={flag="1001",low=18,high=22},
+            ["The Shrine of Aessina"]={flag="0000",low=19,high=21},
 
         },
 
@@ -394,7 +396,7 @@ ZoneInfoTW.PointOfInterests = {
             ["Blackchar Cave"]={flag="1001",low=47,high=49},
             ["The Sea of Cinders"]={flag="1001",low=45,high=49},
             ["Grimesilt Dig Site"]={flag="1001",low=43,high=47},
-            ["Tanner Camps"]={flag="1001",low=43,high=45},
+            ["Tanner Camp"]={flag="1001",low=43,high=45},
             ["The Cauldron"]={flag="1001",low=45,high=49},
             ["Firewatch Ridge"]={flag="1001",low=47,high=51},
             ["Thorium Point"]={flag="1010",low=47,high=49},
