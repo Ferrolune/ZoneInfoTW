@@ -9,7 +9,7 @@ POI is the current WIP before we're adding anything else. Should take a month be
 
 Roadmap
 
-1. POI data (46% Done)
+1. POI data (50% Done)
 2. Dungeons/Raids/PvP entrances
 3. World bosses
 4. World buffs

@@ -368,6 +368,8 @@ ZoneInfoTW.PointOfInterests = {
             ["Bathran's Haunt"]={flag="1001",low=18,high=22},
             ["Maestra's Post"]={flag="0000",low=18,high=21},
             ["The Zoram Strand"]={flag="1001",low=18,high=22},
+            ["Zoram'gar Outpost"]={flag="0100",low=18,high=22},
+            ["Lake Falathim"]={flag="1001",low=18,high=22},
 
         },
 
