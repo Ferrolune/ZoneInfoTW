@@ -12,7 +12,7 @@ ZoneInfoTW.Towns = {
 
     -- Alliance Towns
     ["Auberdine"] = {flag = "0000"},
-    ["Astranaar"] = {flag = "0000"},
+    ["Astranaar"]={flag="0000",low=19,high=24},
     ["Stonetalon Peak"] = {flag = "0000"},
     ["Nijel's Point"] = {flag = "0000"},
     ["Theramore Isle"] = {flag = "0000"},

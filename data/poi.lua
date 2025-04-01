@@ -372,7 +372,9 @@ ZoneInfoTW.PointOfInterests = {
             ["Zoram'gar Outpost"]={flag="0100",low=18,high=22},
             ["Lake Falathim"]={flag="1001",low=18,high=22},
             ["The Shrine of Aessina"]={flag="0000",low=19,high=21},
-
+            ["Fire Scar Shrine"]={flag="1001",low=22,high=24},
+            ["The Ruins of Stardust"]={flag="1001",low=20,high=24},
+            ["Fallen Sky Lake"]={flag="1001",low=25,high=30},
         },
 
         ["Burning Steppes"]={
