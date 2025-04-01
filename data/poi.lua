@@ -392,7 +392,7 @@ ZoneInfoTW.PointOfInterests = {
             ["Blackchar Cave"]={flag="1001",low=47,high=49},
             ["The Sea of Cinders"]={flag="1001",low=45,high=49},
             ["Grimesilt Dig Site"]={flag="1001",low=43,high=47},
-            ["Tanner Camps"]={flag="1001",low=43,high=45}, -- Fixed range
+            ["Tanner Camps"]={flag="1001",low=43,high=45},
             ["The Cauldron"]={flag="1001",low=45,high=49},
             ["Firewatch Ridge"]={flag="1001",low=47,high=51},
             ["Thorium Point"]={flag="1010",low=47,high=49},
