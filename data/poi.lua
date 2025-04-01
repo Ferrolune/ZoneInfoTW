@@ -202,6 +202,9 @@ ZoneInfoTW.PointOfInterests = {
             ["Ariden's Camp"]={flag="0000",low=50,high=51},
             ["The Vice"]={flag="1001",low=55,high=58},
             ["Karazhan"]={flag="1001",low=50,high=61},
+            ["Deadwind Ravine"]={flag="1001",low=55,high=58},
+            ["Sleeping Gorge"]={flag="1001",low=55,high=58},
+            ["Grosh'gok Compound"]={flag="1001",low=56,high=60},
         },
         ["Eastern Plaguelands"] = {
             ["The Scourged Pass"]={flag="1001",low=53,high=54},
@@ -361,10 +364,41 @@ ZoneInfoTW.PointOfInterests = {
         },
 
         ["Ashenvale"] = {
-            ["Ruins of Ordil'Aran"]={flag="1001",low=18,high=21},
-            ["Bathran's Haunt"]={flag="1001",low=18,high=20},
+            ["The Ruins of Ordil'Aran"]={flag="1001",low=18,high=21},
+            ["Bathran's Haunt"]={flag="1001",low=18,high=22},
+            ["Maestra's Post"]={flag="0000",low=18,high=21},
+            ["The Zoram Strand"]={flag="1001",low=18,high=22},
 
         },
+
+        ["Burning Steppes"]={
+            ["Morgan's Vigil"]={flag="0000",low=51,high=52},
+            ["Blackrock Pass"]={flag="1001",low=51,high=53},
+            ["Terror Wing Path"]={flag="1001",low=50,high=54},
+            ["Hateforge Excavation"]={flag="1001",low=47,high=52},
+            ["Hateforge Quarry"]={flag="1001",low=48,high=52},
+            ["Karfang Hold"]={flag="0100",low=48,high=52},
+            ["Slither Rock"]={flag="1001",low=50,high=53},
+            ["Dreadmaul Rock"]={flag="1001",low=50,high=53},
+            ["Ruins of Thaurissan"]={flag="1001",low=53,high=57},
+            ["Flame Crest"]={flag="1000",low=55,high=57},
+            ["The Pillar of Ash"]={flag="1001",low=50,high=58},
+            ["Blackrock Stronghold"]={flag="1001",low=55,high=58},
+            ["Draco'dar"]={flag="1001",low=55,high=58},
+            ["Altar of Storms"]={flag="1001",low=56,high=57},
+            ["Blackrock Mountain"]={flag="1001",low=46,high=55},
+        },
+        ["Searing Gorge"]={
+            ["Blackchar Cave"]={flag="1001",low=47,high=49},
+            ["The Sea of Cinders"]={flag="1001",low=45,high=49},
+            ["Grimesilt Dig Site"]={flag="1001",low=43,high=47},
+            ["Tanner Camps"]={flag="1001",low=43,high=45}, -- Fixed range
+            ["The Cauldron"]={flag="1001",low=45,high=49},
+            ["Firewatch Ridge"]={flag="1001",low=47,high=51},
+            ["Thorium Point"]={flag="1010",low=47,high=49},
+            ["Dustfire Valley"]={flag="1001",low=43,high=47},
+        },
+
     -- regex to find rows where low = high, please fix these: low\s*=\s*(\d+)\s*,\s*high\s*=\s*\1
 }
 
