@@ -45,6 +45,8 @@ function ZoneInfoTW:GetColoredName(target, table)
         local flag = t[target].flag
         local adjustedFlag = ZoneInfoTW:AdjustFlagForPlayerFaction(flag)
         local color = ZoneInfoTW.reactionColors[adjustedFlag]
+        print(target)
+        print()
         return string.format("%s%s|r", color, target)
     end
 

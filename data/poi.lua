@@ -4,22 +4,20 @@ ZoneInfoTW.PointOfInterests = {
 
     --Kalimdor
         ["Durotar"] = {
-                ["Skull Rock"] = {flag = "1001",low = 8,high = 14},
-                ["SparkwaterPort"] = {flag = "0100",low = 6,high = 9},
-                ["Drygulch Ravine"] = {flag = "1001",low = 7,high = 12},
-                ["Razorwind Canyon"] = {flag = "1001",low = 7,high = 8},
-                ["Tor'Kren Farm"] = {flag = "0100",low = 6,high = 11},
-                ["Thunder Ridge"] = {flag = "1001",low = 6,high = 12},
-                ["Razormane Grounds"] = {flag = "1001",low = 6,high = 11},
-                ["Razor Hill"] = {flag = "0100",low = 5,high = 8},
-                ["Tiragarde Keep"] = {flag = "1001",low = 5,high = 8},
-                ["Valley of Trials"] = {flag = "0100",low = 1,high = 5},
-                ["Sen'jin Village"] = {flag = "0100",low = 5,high = 7},
-                ["Kolkar Grag"] = {flag = "1001",low = 6,high = 8},
-                ["Echo Isles"] = {flag = "1001",low = 6,high = 11},
-            },
-
-    --Eastern Kingdoms
+            ["Skull Rock"] = {flag = "1001",low = 8,high = 14},
+            ["Sparkwater Port"] = {flag = "0100",low = 6,high = 9},
+            ["Drygulch Ravine"] = {flag = "1001",low = 7,high = 12},
+            ["Razorwind Canyon"] = {flag = "1001",low = 7,high = 8},
+            ["Tor'kren Farm"] = {flag = "0100",low = 6,high = 11},
+            ["Thunder Ridge"] = {flag = "1001",low = 6,high = 12},
+            ["Razormane Grounds"] = {flag = "1001",low = 6,high = 11},
+            ["Razor Hill"] = {flag = "0100",low = 5,high = 8},
+            ["Tiragarde Keep"] = {flag = "1001",low = 5,high = 8},
+            ["Valley of Trials"] = {flag = "0100",low = 1,high = 5},
+            ["Sen'jin Village"] = {flag = "0100",low = 5,high = 7},
+            ["Kolkar Crag"] = {flag = "1001",low = 6,high = 8},
+            ["Echo Isles"] = {flag = "1001",low = 6,high = 11},
+        },
         ["Elwynn Forest"] = {
             ["Northshire Valley"] = {flag = "1010",low = 1,high = 5},
             ["Northshire Abbey"] = {flag = "0000",low = 1,high = 3},
@@ -71,7 +69,6 @@ ZoneInfoTW.PointOfInterests = {
             ["Vul'Gol Ogre Mound"] = {flag = "1001",low = 23,high = 31},
             ["Twilight Grove"] = {flag = "1001", low = 60, high = 63},
         },
-
         ["Redridge Mountains"] = {
             ["Three Corners"] = {flag = "1001",low = 14,high = 17},
             ["Lakeridge Highway"] = {flag = "1001",low = 15,high = 19},
@@ -235,7 +232,6 @@ ZoneInfoTW.PointOfInterests = {
             ["The Fungal Vale"]={flag="1001",low=57,high=60},
             ["Thondroril River"]={flag="1001",low=53,high=55},
         },
-
         ["Silverpine Forest"] = {
             ["Pyrewood Village"]={flag="0000",low=13,high=15},
             ["Shadowfang Keep"]={flag="1001",low=12,high=13},
@@ -363,7 +359,6 @@ ZoneInfoTW.PointOfInterests = {
             ["Kazon Island"]={flag="1000",low=51,high=55},
             ["Kalkor Point"]={flag="1010",low=51,high=53},
         },
-
         ["Ashenvale"] = {
             ["The Ruins of Ordil'Aran"]={flag="1001",low=18,high=21},
             ["Bathran's Haunt"]={flag="1001",low=18,high=22},
@@ -398,7 +393,6 @@ ZoneInfoTW.PointOfInterests = {
             ["Demon Fall Canyon"]={flag="1001",low=29,high=34},
             ["Felfire Hill"]={flag="1001",low=29,high=34},
         },
-
         ["Burning Steppes"]={
             ["Morgan's Vigil"]={flag="0000",low=51,high=52},
             ["Blackrock Pass"]={flag="1001",low=51,high=53},
@@ -416,7 +410,6 @@ ZoneInfoTW.PointOfInterests = {
             ["Altar of Storms"]={flag="1001",low=56,high=57},
             ["Blackrock Mountain"]={flag="1001",low=46,high=55},
         },
-
         ["Searing Gorge"]={
             ["Blackchar Cave"]={flag="1001",low=47,high=49},
             ["The Sea of Cinders"]={flag="1001",low=45,high=49},
@@ -427,7 +420,6 @@ ZoneInfoTW.PointOfInterests = {
             ["Thorium Point"]={flag="1010",low=47,high=49},
             ["Dustfire Valley"]={flag="1001",low=43,high=47},
         },
-
         ["Badlands"]={
             ["The Maker's Terrace"]={flag="1001",low=35,high=37},
             ["Hammertoe's Digsite"]={flag="1001",low=35,high=37},
@@ -439,14 +431,12 @@ ZoneInfoTW.PointOfInterests = {
             ["Mirage Flats"]={flag="1001",low=38,high=45},
             ["Camp Cagg"]={flag="1001",low=40,high=43},
             ["Dustbelch Grotto"]={flag="1001",low=41,high=45},
-            ["Kargath"]={flag="0100",low=40,high=41},
             ["Apocryphan's Rest"]={flag="1001",low=39,high=41},
             ["The Dustbowl"]={flag="1001",low=37,high=43},
             ["Camp Wurg"]={flag="1001",low=38,high=40},
             ["Valley of Fangs"]={flag="1001",low=38,high=39},
             ["Camp Kosh"]={flag="1001",low=35,high=37},
         },
-
         ["Teldrassil"]={
             ["The Oracle Glade"]={flag="0000",low=8,high=9},
             ["Wellspring Lake"]={flag="1001",low=8,high=9},
@@ -464,47 +454,45 @@ ZoneInfoTW.PointOfInterests = {
             ["The Cleft"]={flag="0000",low=8,high=9},
             ["Rut'theran Village"]={flag="0000",low=10,high=12},
         },
-
         ["Icepoint Rock"]={
             ["The Kaneq'nuun"]={flag="1010",low=41,high=48},
         },
-
         ["Arathi Highlands"]={
-            ["Farwell Stead"]={flag=1001,low=30,high=33},
-            ["Ruins of Zul'Rasaz"]={flag=1001,low=34,high=37},
-            ["Wildtusk Village"]={flag=0100,low=34,high=37},
-            ["Refuge Pointe"]={flag=0000,low=30,high=33},
-            ["Boulder'gor"]={flag=1001,low=30,high=36},
-            ["Boulderfist Outpost"]={flag=1001,low=32,high=34},
-            ["Northfold Manor"]={flag=1001,low=30,high=33},
-            ["Circle of West Binding"]={flag=1001,low=38,high=39},
-            ["Thoradin's Wall"]={flag=1001,low=30,high=34},
-            ["The Tower of Arathor"]={flag=1001,low=36,high=40},
-            ["Stromgarde Keep"]={flag=1001,low=35,high=40},
-            ["Circle of Inner Binding"]={flag=1001,low=38,high=39},
-            ["Circle of Outer Binding"]={flag=1001,low=38,high=39},
-            ["Dabyrie's Farmstead"]={flag=0000,low=30,high=34},
-            ["Go'Shek Farm"]={flag=0100,low=33,high=35},
-            ["Circle of East Binding"]={flag=1001,low=38,high=39},
-            ["Hammerfall"]={flag=0100,low=30,high=36},
-            ["Witherbark Village"]={flag=1001,low=32,high=35},
-            ["Boulderfist Hall"]={flag=1001,low=35,high=39},
-            ["Thandol Span"]={flag=1001,low=30,high=37},
+            ["Farwell Stead"]={flag="1001",low=30,high=33},
+            ["Ruins of Zul'Rasaz"]={flag="1001",low=34,high=37},
+            ["Wildtusk Village"]={flag="0100",low=34,high=37},
+            ["Refuge Pointe"]={flag="0000",low=30,high=33},
+            ["Boulder'gor"]={flag="1001",low=30,high=36},
+            ["Boulderfist Outpost"]={flag="1001",low=32,high=34},
+            ["Northfold Manor"]={flag="1001",low=30,high=33},
+            ["Circle of West Binding"]={flag="1001",low=38,high=39},
+            ["Thoradin's Wall"]={flag="1001",low=30,high=34},
+            ["The Tower of Arathor"]={flag="1001",low=36,high=40},
+            ["Stromgarde Keep"]={flag="1001",low=35,high=40},
+            ["Circle of Inner Binding"]={flag="1001",low=38,high=39},
+            ["Circle of Outer Binding"]={flag="1001",low=38,high=39},
+            ["Dabyrie's Farmstead"]={flag="0000",low=30,high=34},
+            ["Go'Shek Farm"]={flag="0100",low=33,high=35},
+            ["Circle of East Binding"]={flag="1001",low=38,high=39},
+            ["Hammerfall"]={flag="0100",low=30,high=36},
+            ["Witherbark Village"]={flag="1001",low=32,high=35},
+            ["Boulderfist Hall"]={flag="1001",low=35,high=39},
+            ["Thandol Span"]={flag="1001",low=30,high=37},
         },
         ["The Hinterlands"]={
-            ["Aerie Peak"]={flag=0000,low=36,high=42},
-            ["Hiri'watha"]={flag=1001,low=40,high=44},
-            ["Quel'Danil Lodge"]={flag=0000,low=43,high=47},
-            ["Valorwind Lake"]={flag=1001,low=44,high=46},
-            ["The Altar of Zul"]={flag=1001,low=46,high=50},
-            ["Agol'watha"]={flag=1001,low=46,high=48},
-            ["Seradane"]={flag=1001,low=60,high=62},
-            ["Skulk Rock"]={flag=1001,low=46,high=48},
-            ["The Creeping Ruin"]={flag=1001,low=46,high=48},
-            ["Jintha'Alor"]={flag=1001,low=45,high=51},
-            ["The Overlook Cliffs"]={flag=1010,low=48,high=50},
-            ["Revantusk Village"]={flag=0100,low=48,high=50},
-            ["Shaol'watha"]={flag=1001,low=46,high=48},
+            ["Aerie Peak"]={flag="0000",low=36,high=42},
+            ["Hiri'watha"]={flag="1001",low=40,high=44},
+            ["Quel'Danil Lodge"]={flag="0000",low=43,high=47},
+            ["Valorwind Lake"]={flag="1001",low=44,high=46},
+            ["The Altar of Zul"]={flag="1001",low=46,high=50},
+            ["Agol'watha"]={flag="1001",low=46,high=48},
+            ["Seradane"]={flag="1001",low=60,high=62},
+            ["Skulk Rock"]={flag="1001",low=46,high=48},
+            ["The Creeping Ruin"]={flag="1001",low=46,high=48},
+            ["Jintha'Alor"]={flag="1001",low=45,high=51},
+            ["The Overlook Cliffs"]={flag="1010",low=48,high=50},
+            ["Revantusk Village"]={flag="0100",low=48,high=50},
+            ["Shaol'watha"]={flag="1001",low=46,high=48},
         },
 
     -- regex to find rows where low = high, please fix these: low\s*=\s*(\d+)\s*,\s*high\s*=\s*\1

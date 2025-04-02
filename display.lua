@@ -45,8 +45,6 @@ function ZoneInfoTW:UpdateZoneDisplayText()
         ZoneInfoTW.lastZoneID = currentZoneID
     end
 
-
-
     for _, rule in ipairs(ZoneInfoTW.DisplayRules) do
         if rule.check(lookup) then
             entry = rule.get(lookup)

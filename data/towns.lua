@@ -40,7 +40,7 @@ ZoneInfoTW.Towns = {
     ["Freewind Post"] = {flag = "0100"},
     ["Tarren Mill"]={flag="0100",low=20,high=22},
     ["The Sepulcher"]={flag="0100",low=10,high=11},
-    ["Kargath"] = {flag = "0100"},
+    ["Kargath"]={flag="0100",low=40,high=41},
     ["Grom'Gol Base Camp"] = {flag = "0100",low = 33,high = 38},
 }
 
