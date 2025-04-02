@@ -28,7 +28,7 @@ function ZoneInfoTW:UpdateZoneDisplayText()
 
 
     local ZoneInfo = {}
-    WorldMapFrameAreaLabel:SetText()
+    WorldMapFrameAreaLabel:Hide()
 
     local lookup = poi ~= "" and poi or zone
     local entry = ""
