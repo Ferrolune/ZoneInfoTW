@@ -16,7 +16,8 @@ ZoneInfoTW.PointOfInterests = {
             ["Valley of Trials"] = {flag = "0100",low = 1,high = 5},
             ["Sen'jin Village"] = {flag = "0100",low = 5,high = 7},
             ["Kolkar Crag"] = {flag = "1001",low = 6,high = 8},
-            ["Echo Isles"] = {flag = "1001",low = 6,high = 11},
+            ["The Den"] = {flag = "0100",low = 1,high = 3},
+
         },
         ["Elwynn Forest"] = {
             ["Northshire Valley"] = {flag = "1010",low = 1,high = 5},
