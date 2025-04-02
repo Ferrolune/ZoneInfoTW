@@ -404,6 +404,24 @@ ZoneInfoTW.PointOfInterests = {
             ["Thorium Point"]={flag="1010",low=47,high=49},
             ["Dustfire Valley"]={flag="1001",low=43,high=47},
         },
+        ["Badlands"]={
+            ["The Maker's Terrace"]={flag="1001",low=35,high=37},
+            ["Hammertoe's Digsite"]={flag="1001",low=35,high=37},
+            ["Angor Fortress"]={flag="1001",low=36,high=42},
+            ["Dustwind Gulch"]={flag="1001",low=35,high=40},
+            ["Lethlor Ravine"]={flag="1001",low=41,high=45},
+            ["Camp Boff"]={flag="1001",low=37,high=40},
+            ["Agmond's End"]={flag="1001",low=37,high=41},
+            ["Mirage Flats"]={flag="1001",low=38,high=45},
+            ["Camp Cagg"]={flag="1001",low=40,high=43},
+            ["Dustbelch Grotto"]={flag="1001",low=41,high=45},
+            ["Kargath"]={flag="0100",low=40,high=41},
+            ["Apocryphan's Rest"]={flag="1001",low=39,high=41},
+            ["The Dustbowl"]={flag="1001",low=37,high=43},
+            ["Camp Wurg"]={flag="1001",low=38,high=40},
+            ["Valley of Fangs"]={flag="1001",low=38,high=39},
+            ["Camp Kosh"]={flag="1001",low=35,high=37},
+        },
 
     -- regex to find rows where low = high, please fix these: low\s*=\s*(\d+)\s*,\s*high\s*=\s*\1
 }
