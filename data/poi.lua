@@ -290,7 +290,7 @@ ZoneInfoTW.PointOfInterests = {
             ["Dreadmaul Post"]={flag="1001",low=48,high=54},
             ["Serpent's Coil"]={flag="1001",low=47,high=58},
             ["The Dark Portal"]={flag="1001",low=48,high=57},
-            ["The Tainted Scar"]={flag="1001",low=60,high=62},
+            ["The Tainted Scar"]={flag="1001",low=60,high=63},
         },
         ["Alterac Mountains"] = {
             ["Lordamere Internment Camp"]={flag="0000",low=24,high=33},
@@ -388,7 +388,7 @@ ZoneInfoTW.PointOfInterests = {
             ["Satyrnaar"]={flag="1001",low=26,high=28},
             ["Xavian"]={flag="1001",low=28,high=30},
             ["Forest Song"]={flag="1001",low=28,high=30},
-            ["Bough Shadow"]={flag="1001",low=60,high=62},
+            ["Bough Shadow"]={flag="1001",low=60,high=63},
             ["Warsong Lumber Camp"]={flag="0100",low=26,high=30},
             ["Demon Fall Canyon"]={flag="1001",low=29,high=34},
             ["Felfire Hill"]={flag="1001",low=29,high=34},
@@ -486,7 +486,7 @@ ZoneInfoTW.PointOfInterests = {
             ["Valorwind Lake"]={flag="1001",low=44,high=46},
             ["The Altar of Zul"]={flag="1001",low=46,high=50},
             ["Agol'watha"]={flag="1001",low=46,high=48},
-            ["Seradane"]={flag="1001",low=60,high=62},
+            ["Seradane"]={flag="1001",low=60,high=63},
             ["Skulk Rock"]={flag="1001",low=46,high=48},
             ["The Creeping Ruin"]={flag="1001",low=46,high=48},
             ["Jintha'Alor"]={flag="1001",low=45,high=51},
@@ -494,7 +494,12 @@ ZoneInfoTW.PointOfInterests = {
             ["Revantusk Village"]={flag="0100",low=48,high=50},
             ["Shaol'watha"]={flag="1001",low=46,high=48},
         },
-
+        ["Moonglade"]={
+            ["Shrine of Remulos"]={flag="1010",low=60,high=63},
+            ["Nighthaven"]={flag="1010",low=60,high=63},
+            ["Lake Elune'ara"]={flag="1010",low=60,high=63},
+            ["Stormrage Barrow Dens"]={flag="1010",low=60,high=63},
+        },
     -- regex to find rows where low = high, please fix these: low\s*=\s*(\d+)\s*,\s*high\s*=\s*\1
 }
 

@@ -28,7 +28,7 @@ ZoneInfoTW.Zones = {
     ["Eastern Plaguelands"] = { name = "EasternPlaguelands", flag = "1010", low = 53, low_accurate = 51, high = 60, high_accurate = 60 },
     ["Winterspring"] = { name = "Winterspring", flag = "1010", low = 53, high = 60 },
     ["Deadwind Pass"] = { name = "DeadwindPass", flag = "1010", low = 55, low_accurate = 50, high = 60, high_accurate = 60 },
-    ["Moonglade"] = { name = "Moonglade", flag = "1010", low = 55, high = 60 },
+    ["Moonglade"] = { name = "Moonglade", flag = "1010", low = 60, high = 63},
     ["Silithus"] = { name = "Silithus", flag = "1010", low = 55, high = 60 },
     ["Dun Morogh"] = { name = "DunMorogh", flag = "0000", low = 1, low_accurate = 1, high = 10, high_accurate = 26 },
     ["Elwynn Forest"] = { name = "Elwynn", flag = "0000", low = 1, low_accurate = 1, high = 10, high_accurate = 11 },
