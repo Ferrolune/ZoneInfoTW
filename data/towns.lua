@@ -30,7 +30,7 @@ ZoneInfoTW.Towns = {
     ["Ravenshire"] = {flag = "0000",low=41,high=43},
 
     -- Horde Towns
-    ["Splintertree Post"] = {flag = "0100"},
+    ["Splintertree Post"] = {flag = "0100", low = 26, high = 28},
     ["Amani'Alor"] = {flag = "0100"},
     ["Sun Rock Retreat"] = {flag = "0100"},
     ["The Crossroads"] = {flag = "0100"},
