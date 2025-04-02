@@ -5,7 +5,7 @@
 ## DefaultState: enabled
 ## LoadOnDemand: 0
 ## X-Category: Map
-## Version: 1.5.5a
+## Version: 1.5.6a
 
 
 core.lua
@@ -28,6 +28,9 @@ data\zones.lua
 
 
 # Version Log
+# Version 1.5.6a
+# 60% of all data entries achieved
+#
 # Version 1.5.5a
 # Half of all data entries achieved
 #

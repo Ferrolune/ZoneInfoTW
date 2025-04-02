@@ -344,7 +344,7 @@ ZoneInfoTW.PointOfInterests = {
             ["Zul'Hazu"]={flag="1001",low=47,high=55},
             ["Bright Coast"]={flag="1001",low=49,high=54},
         },
-        ["Gillimim's Isle"] = {
+        ["Gillijim's Isle"] = {
             ["The Southsea Sandbar"]={flag="1001",low=51,high=53},
             ["Distillery Island"]={flag="1001",low=48,high=53},
             ["The Silver Sandbar"]={flag="1001",low=50,high=54},
