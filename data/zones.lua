@@ -16,7 +16,7 @@ ZoneInfoTW.Zones = {
     ["Badlands"] = { name = "Badlands", flag = "1010", low = 35, low_accurate = 35, high = 45, high_accurate = 45},
     ["Swamp of Sorrows"] = { name = "SwampOfSorrows", flag = "1010", low = 35, low_accurate = 34, high = 45, high_accurate = 50 },
     ["Feralas"] = { name = "Feralas", flag = "1010", low = 40, high = 50 },
-    ["The Hinterlands"] = { name = "Hinterlands", flag = "1010", low = 40, low_accurate = 36, high = 50, high_accurate = 51},
+    ["The Hinterlands"] = { name = "Hinterlands", flag = "1010", low = 40, low_accurate = 35, high = 50, high_accurate = 51},
     ["Tanaris"] = { name = "Tanaris", flag = "1010", low = 40, high = 50 },
     ["Searing Gorge"] = { name = "SearingGorge", flag = "1010", low = 45, low_accurate = 43, high = 50, high_accurate = 51},
     ["Azshara"] = { name = "Azshara", flag = "1010", low = 45, high = 55 },

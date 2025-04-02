@@ -492,6 +492,8 @@ ZoneInfoTW.PointOfInterests = {
             ["The Overlook Cliffs"]={flag="1010",low=48,high=50},
             ["Revantusk Village"]={flag="0100",low=48,high=50},
             ["Shaol'watha"]={flag="1001",low=46,high=48},
+            ["Plaguemist Ravine"]={flag="1001",low=35,high=42},
+            ["Shadra'Alor"]={flag="1001",low=44,high=46},
         },
         ["Moonglade"]={
             ["Shrine of Remulos"]={flag="1010",low=60,high=63},

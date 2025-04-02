@@ -18,7 +18,7 @@ ZoneInfoTW.Towns = {
     ["Theramore Isle"] = {flag = "0000"},
     ["Feathermoon Stronghold"] = {flag = "0000"},
     ["Thalanaar"] = {flag = "0000"},
-    ["Aerie Peak"]={flag="0000",low=36,high=42},
+    ["Aerie Peak"]={flag="0000",low=35,high=42},
     ["Hammerfall"]={flag="0100",low=30,high=36},
     ["Southshore"]={flag="0000",low=25,high=38},
     ["Menethil Harbor"] = {flag = "0000", low = 23, high = 29},
