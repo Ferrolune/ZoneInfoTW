@@ -462,6 +462,7 @@ ZoneInfoTW.PointOfInterests = {
             ["Shadowthread Cave"]={flag="1001",low=3,high=5},
             ["Fel Rock"]={flag="1001",low=5,high=7},
             ["The Cleft"]={flag="0000",low=8,high=9},
+            ["Rut'theran Village"]={flag="0000",low=10,high=12},
         },
 
         ["Icepoint Rock"]={
