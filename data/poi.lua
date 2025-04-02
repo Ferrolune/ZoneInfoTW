@@ -474,13 +474,11 @@ ZoneInfoTW.PointOfInterests = {
             ["Dabyrie's Farmstead"]={flag="0000",low=30,high=34},
             ["Go'Shek Farm"]={flag="0100",low=33,high=35},
             ["Circle of East Binding"]={flag="1001",low=38,high=39},
-            ["Hammerfall"]={flag="0100",low=30,high=36},
             ["Witherbark Village"]={flag="1001",low=32,high=35},
             ["Boulderfist Hall"]={flag="1001",low=35,high=39},
             ["Thandol Span"]={flag="1001",low=30,high=37},
         },
         ["The Hinterlands"]={
-            ["Aerie Peak"]={flag="0000",low=36,high=42},
             ["Hiri'watha"]={flag="1001",low=40,high=44},
             ["Quel'Danil Lodge"]={flag="0000",low=43,high=47},
             ["Valorwind Lake"]={flag="1001",low=44,high=46},
