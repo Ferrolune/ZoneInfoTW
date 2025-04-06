@@ -15,7 +15,7 @@ end
 function ZoneInfoTW:GetAccurateLevels(target, table)
     table = ZoneInfoTW:GetRealTable(table,target)
 
-    if useAccurateWhereAvailable and table[target].low_accurate and table[target].high_accurate then
+    if useAccurateWhereAvailable and table[target].low_accurate and table[target].high_accurate and ZoneInfoTW.options["ShowMonsterLevelRange"] == true then
         return {table[target].low_accurate, table[target].high_accurate}
     else
         return {table[target].low, table[target].high}

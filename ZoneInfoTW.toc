@@ -14,6 +14,7 @@ display.lua
 functions\dungeons.lua
 functions\errors.lua
 functions\texts.lua
+functions\options.lua
 
 
 
