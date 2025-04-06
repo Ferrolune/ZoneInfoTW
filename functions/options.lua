@@ -11,7 +11,7 @@ SlashCmdList["ZIT"] = function()
         local option = ZoneInfoTW.options["ShowMonsterLevelRange"]
         option = not option
         ZoneInfoTW.options["ShowMonsterLevelRange"] = option
-        DEFAULT_CHAT_FRAME:AddMessage(option and "ZI Now using traditional zone level ranges on world map"
+        DEFAULT_CHAT_FRAME:AddMessage(option and "ZI: Now using traditional zone level ranges on world map"
                                              or "ZI: Now using monster level ranges on world map"
                                      )
 end
